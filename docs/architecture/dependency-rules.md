@@ -1,4 +1,4 @@
-# AuraOne Cloud — Dependency Rules
+# TanAir Cloud — Dependency Rules
 ## Architecture Documentation
 
 **Version:** 0C  

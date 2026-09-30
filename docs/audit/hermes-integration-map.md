@@ -1,5 +1,5 @@
 # Hermes Integration Map
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-AuraOne Cloud communicates with the Hermes VPS through a two-step gateway protocol proxied via a Next.js API route. A local intelligent fallback fires whenever the gateway is unreachable.
+TanAir Cloud communicates with the Hermes VPS through a two-step gateway protocol proxied via a Next.js API route. A local intelligent fallback fires whenever the gateway is unreachable.
 
 ```
 Browser
@@ -80,12 +80,12 @@ Browser
 
 | Component | Location | Port | Access |
 |---|---|---|---|
-| Slim Gateway (public) | `/home/ubuntu/AuraOne/` | `:9119` | Public HTTP |
-| Master Console | `/home/ubuntu/AuraOne/` | `:8787` | Tailscale-only |
-| Hermes ReAct Engine | `/home/ubuntu/AuraOne/` | Internal | Via gateway only |
+| Slim Gateway (public) | `/home/ubuntu/TanAir/` | `:9119` | Public HTTP |
+| Master Console | `/home/ubuntu/TanAir/` | `:8787` | Tailscale-only |
+| Hermes ReAct Engine | `/home/ubuntu/TanAir/` | Internal | Via gateway only |
 | Docker OpenD (Moomoo) | Docker on VPS | `127.0.0.1:11111` | VPS-internal only |
 | aura-trade-bot.service | systemd | — | Internal |
-| OBC6 gateway module | `/home/ubuntu/AuraOne/obc6/` | — | Internal |
+| OBC6 gateway module | `/home/ubuntu/TanAir/obc6/` | — | Internal |
 
 ---
 
@@ -131,7 +131,7 @@ The fallback in `route.ts` handles 4 keyword patterns in BM:
 | No auth token between Next.js and Hermes | HIGH | Any entity that can reach `:9119` can send messages |
 | `NEXT_PUBLIC_GATEWAY_URL` is client-exposed | MEDIUM | VPS IP visible in browser JS bundle/network tab |
 | `agent` not forwarded to Hermes | MEDIUM | Agent-specific behaviour not enforced at engine level |
-| No session token forwarded to Hermes | HIGH | Hermes cannot validate that the caller is an authenticated AuraOne user |
+| No session token forwarded to Hermes | HIGH | Hermes cannot validate that the caller is an authenticated TanAir user |
 
 ---
 

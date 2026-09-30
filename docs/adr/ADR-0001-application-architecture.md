@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-The current AuraOne Cloud codebase is structured around a monolithic 657-line "God Component" in `app/page.tsx` (Finding: `ARC-001`). This component violates the Single Responsibility Principle by simultaneously managing React UI rendering, Supabase client authentication calls, API streaming readers, browser session arrays, and simulated PAYG credit deductions. Additionally, direct vendor calls to `supabase.auth.*` and `fetch('/api/chat')` violate `DEC-010`, creating tight vendor coupling and blocking isolated automated testing.
+The current TanAir Cloud codebase is structured around a monolithic 657-line "God Component" in `app/page.tsx` (Finding: `ARC-001`). This component violates the Single Responsibility Principle by simultaneously managing React UI rendering, Supabase client authentication calls, API streaming readers, browser session arrays, and simulated PAYG credit deductions. Additionally, direct vendor calls to `supabase.auth.*` and `fetch('/api/chat')` violate `DEC-010`, creating tight vendor coupling and blocking isolated automated testing.
 
 ## Context & Constraints
 - **Audit Findings:** `ARC-001` (God Component), `ARC-002` (Direct vendor coupling), `ARC-004` (No domain type boundaries).
@@ -24,7 +24,7 @@ Keep logic within `app/` routes, using custom hooks inside page folders.
 - **Cons:** High coupling; poor testability; difficult to swap storage backends; violates `DEC-010`.
 
 ### Option B: Full Domain-Driven Design (DDD) with Micro-packages / Monorepo
-Split the application into separate Turborepo packages (`@auraone/core`, `@auraone/ui`, `@auraone/adapters`).
+Split the application into separate Turborepo packages (`@tanair/core`, `@tanair/ui`, `@tanair/adapters`).
 - **Pros:** Extreme modularity and boundary enforcement.
 - **Cons:** Heavy operational overhead, slow build loops, over-engineering for an early-stage startup.
 

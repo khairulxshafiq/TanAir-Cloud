@@ -1,5 +1,5 @@
 # Existing Feature Matrix
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -81,7 +81,7 @@
 | Agent selector in sidebar | ✅ Working | 6 agents displayed with icon + role |
 | Active agent indicator | ✅ Working | Green dot + purple highlight |
 | Agent name in chat header | ✅ Working | Shows `activeAgent` |
-| Agent name in message attribution | ✅ Working | `${activeAgent} · AuraOne` |
+| Agent name in message attribution | ✅ Working | `${activeAgent} · TanAir` |
 | Agent name in textarea placeholder | ✅ Working | `Tanya ${activeAgent}...` |
 | Agent routing to Hermes | ❌ Not implemented | `agent` NOT forwarded to gateway |
 | Tier-based agent access lock | ❌ Not implemented | All agents accessible to all users |

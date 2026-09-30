@@ -1,6 +1,6 @@
-# 02 — AuraOne Endstate Vision
+# 02 — TanAir Endstate Vision
 
-# AuraOne Cloud Definition of Done
+# TanAir Cloud Definition of Done
 
 Version: 1.1
 Status: CANONICAL — dokumentasi Definasi Siap utama. (07 Execution Guide adalah duplicate yang telah dipadam; 08 merujuk entri ini juga.)
@@ -198,7 +198,7 @@ Rollback: DOCUMENTED
 
 # 14. Release Definition
 
-AuraOne is release-ready only when:
+TanAir is release-ready only when:
 
 - Build is reproducible
 - Tests are green

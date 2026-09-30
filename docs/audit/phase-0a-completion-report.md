@@ -1,5 +1,5 @@
 # Phase 0A Completion Report
-## AuraOne Cloud — Read-Only Discovery
+## TanAir Cloud — Read-Only Discovery
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Lead Senior DevOps / Architect / Security / Frontend Engineer)  
@@ -27,9 +27,9 @@ All 10 audit reports have been created:
 
 ---
 
-## 2. What AuraOne Cloud Is Today
+## 2. What TanAir Cloud Is Today
 
-AuraOne Cloud is a **working early-stage prototype** with the following confirmed capabilities:
+TanAir Cloud is a **working early-stage prototype** with the following confirmed capabilities:
 
 - **Google OAuth login** via Supabase — users can sign in with Gmail
 - **BM-first chat interface** — fully responsive, dark theme, sidebar with 6-agent selector
@@ -76,7 +76,7 @@ Everything else described in the Phase Plan (subscriptions, memory, bot builder,
 
 ### Data Storage
 - All chat data is in-memory React state — zero database persistence
-- Supabase project exists and Auth works, but no AuraOne-owned tables exist
+- Supabase project exists and Auth works, but no TanAir-owned tables exist
 - Credits balance is simulated in frontend state
 
 ### Security
@@ -91,7 +91,7 @@ Everything else described in the Phase Plan (subscriptions, memory, bot builder,
 - No Prettier or `.editorconfig`
 
 ### Project Docs
-- 01–08 docs are present but ~60% of fields in `01_AURAONE_PROJECT_INPUT.md` are still `[ISI]` (unfilled)
+- 01–08 docs are present but ~60% of fields in `01_TANAIR_PROJECT_INPUT.md` are still `[ISI]` (unfilled)
 - Decisions DEC-001 through DEC-016 are recorded and accepted
 
 ---
@@ -128,7 +128,7 @@ Everything else described in the Phase Plan (subscriptions, memory, bot builder,
 
 ## 7. Quality Gate
 
-### Gate Criteria (from `05_AURAONE_PHASE_PLAN.md`)
+### Gate Criteria (from `05_TANAIR_PHASE_PLAN.md`)
 
 | Criterion | Status |
 |---|---|
@@ -177,7 +177,7 @@ Phase 0B (Audit and Risk Register) will assess:
 
 1. **Is Vercel deployment live?** If yes, what is the URL? This determines whether production security findings are urgent.
 
-2. **Are there any live users (even 1 beta tester) using AuraOne today?** This determines whether security fixes need immediate emergency treatment.
+2. **Are there any live users (even 1 beta tester) using TanAir today?** This determines whether security fixes need immediate emergency treatment.
 
 3. **Does the Hermes gateway at `:9119` require authentication from callers?** (e.g. API key, bearer token, IP allowlist)
 

@@ -1,5 +1,5 @@
 # Security Findings
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Security Engineer)  
@@ -81,7 +81,7 @@ POST http://43.134.124.127:9119/api/chat/start
 
 **Recommendation:**  
 1. Configure Cloudflare (free tier) in front of the VPS gateway as a reverse proxy with HTTPS termination
-2. Or: point a subdomain (e.g. `gateway.auraone.my`) to the VPS with TLS via Let's Encrypt/Nginx
+2. Or: point a subdomain (e.g. `gateway.tanair.my`) to the VPS with TLS via Let's Encrypt/Nginx
 3. Update all env vars to use `https://`
 
 **Effort:** Small (DNS + Nginx SSL config on VPS)  
@@ -131,12 +131,12 @@ done
 The raw VPS IP address (`43.134.124.127`) and port (`:9119`) are committed to the public GitHub repository in `.env.example`. This means:
 - The IP is indexed by GitHub search engines
 - Any actor can directly probe `43.134.124.127:9119`
-- If Hermes gateway has no auth (unknown — SEC-006), direct calls to Hermes bypass AuraOne entirely
+- If Hermes gateway has no auth (unknown — SEC-006), direct calls to Hermes bypass TanAir entirely
 - VPS attack surface is publicly known
 
 **Attack Scenario:**  
 ```bash
-# Direct Hermes bypass — no AuraOne involved:
+# Direct Hermes bypass — no TanAir involved:
 curl -X POST http://43.134.124.127:9119/api/chat/start \
   -H "Content-Type: application/json" \
   -d '{"message": "any message"}'
@@ -334,11 +334,11 @@ The Supabase service role key gives unrestricted database access — bypassing a
 ### SEC-012 — No PDPA/Privacy Compliance Framework (Low — Pre-Launch)
 
 **Severity:** LOW (not yet critical — no real users)  
-**Evidence:** `01_AURAONE_PROJECT_INPUT.md §20` — all compliance fields `[ISI]`  
-**Affected Files:** `docs/project/01_AURAONE_PROJECT_INPUT.md`
+**Evidence:** `01_TANAIR_PROJECT_INPUT.md §20` — all compliance fields `[ISI]`  
+**Affected Files:** `docs/project/01_TANAIR_PROJECT_INPUT.md`
 
 **Description:**  
-AuraOne processes user chat data (potentially including personal data per Malaysia's PDPA). The app currently has:
+TanAir processes user chat data (potentially including personal data per Malaysia's PDPA). The app currently has:
 - No Privacy Policy
 - No Terms of Service
 - No Cookie Policy

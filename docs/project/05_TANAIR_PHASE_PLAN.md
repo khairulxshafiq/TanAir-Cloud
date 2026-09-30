@@ -1,6 +1,6 @@
-# 05 — AuraOne Phase Plan
+# 05 — TanAir Phase Plan
 
-# AuraOne Cloud Phase Plan
+# TanAir Cloud Phase Plan
 
 Version: 1.0  
 Execution model: One phase at a time
@@ -11,7 +11,7 @@ Execution model: One phase at a time
 
 ## Objective
 
-Understand the existing AuraOne ecosystem without changing source code.
+Understand the existing TanAir ecosystem without changing source code.
 
 ## Activities
 
@@ -164,7 +164,7 @@ dependency audit
 
 # Phase 1C: Design System and Application Shell
 
-**NOTE NUMBERING:** Dokumen 01_AURAONE_PROJECT_INPUT.md guna fasa
+**NOTE NUMBERING:** Dokumen 01_TANAIR_PROJECT_INPUT.md guna fasa
 produk (Phase 2 = Private Alpha). Untuk elak konflik nombor, fasa
 Design System & Shell ini dirujuk sebagai **Phase 1C** dalam semua
 arahan operasi. Numbering di bawah kekal 2 kerana ini urutan build
@@ -206,7 +206,7 @@ Build reusable foundations before feature pages.
 
 ## Objective
 
-Allow a first-time visitor to understand and try AuraOne.
+Allow a first-time visitor to understand and try TanAir.
 
 ## Scope
 
@@ -265,7 +265,7 @@ Connect the UI to Hermes through a stable adapter.
 
 ## Objective
 
-Make AuraOne personal while preserving user control.
+Make TanAir personal while preserving user control.
 
 ## Scope
 
@@ -464,7 +464,7 @@ Verify critical journeys and production safety.
 
 ## Objective
 
-Confirm AuraOne can be deployed, operated and rolled back.
+Confirm TanAir can be deployed, operated and rolled back.
 
 ## Scope
 

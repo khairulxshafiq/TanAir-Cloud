@@ -1,5 +1,5 @@
 # Chat API Threat Model & Security Posture
-## Phase 1A: Security Containment — AuraOne Cloud
+## Phase 1A: Security Containment — TanAir Cloud
 
 **Generated:** 2026-09-20  
 **Author:** Lead Senior Security Architect & DevOps Engineer  
@@ -40,7 +40,7 @@
 ### Scenario 1: Unauthenticated Hermes Proxy Abuse
 * **Target Asset:** A-01 (Hermes Capacity), A-05 (VPS Origin)
 * **Threat Actor:** T-01, T-03
-* **Description:** An anonymous attacker sends repeated HTTP POST requests to `/api/chat`, exploiting AuraOne as an open, unmetered AI proxy to burn tokens.
+* **Description:** An anonymous attacker sends repeated HTTP POST requests to `/api/chat`, exploiting TanAir as an open, unmetered AI proxy to burn tokens.
 * **Existing Control (Phase 0):** None. Endpoint was completely open.
 * **New Control (Phase 1A):** Server-side session verification via `authenticateChatRequest(req)` using `@supabase/ssr`. Requests lacking a valid verified Supabase session are rejected with HTTP 401 before any parsing or upstream dispatch.
 * **Residual Risk:** A user can register a free Google account to make requests (contained by rate limiting and quota).
@@ -108,7 +108,7 @@
 * **Threat Actor:** T-01, T-03
 * **Description:** Attackers scan the raw VPS IP discovered from Git history and send direct HTTP requests to port 9119, completely bypassing Next.js authentication.
 * **Existing Control (Phase 0):** Raw IP committed in `.env.example`.
-* **New Control (Phase 1A):** Sanitized `.env.example` with non-routable placeholder `https://gateway.auraone.my`. Added `HERMES_GATEWAY_SECRET` header verification (`X-Aura-Secret`).
+* **New Control (Phase 1A):** Sanitized `.env.example` with non-routable placeholder `https://gateway.tanair.my`. Added `HERMES_GATEWAY_SECRET` header verification (`X-Aura-Secret`).
 * **Residual Risk:** Historical git commits still contain the IP; Tencent Cloud Security Group must restrict port 9119 to Vercel IP ranges or Cloudflare Tunnel.
 * **Test Evidence:** Documented in transport hardening runbook.
 

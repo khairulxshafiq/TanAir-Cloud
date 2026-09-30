@@ -1,5 +1,5 @@
 # Testing and CI/CD Inventory
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -116,7 +116,7 @@ Vercel deploys to production
 ## 6. Findings
 
 > [!CAUTION]
-> **No tests exist at all.** The codebase has zero test coverage. Per `08_AURAONE_DEFINITION_OF_DONE.md`, unit tests, integration tests, permission tests, and E2E tests are all required before any feature ships. The current state fails the Definition of Done for every feature.
+> **No tests exist at all.** The codebase has zero test coverage. Per `08_TANAIR_DEFINITION_OF_DONE.md`, unit tests, integration tests, permission tests, and E2E tests are all required before any feature ships. The current state fails the Definition of Done for every feature.
 
 > [!WARNING]
 > **No CI pipeline guards production.** Any push to `main` triggers a Vercel deploy (assumed). There is no automated gate checking lint, type safety, or tests before deployment.
@@ -134,7 +134,7 @@ Vercel deploys to production
 
 ## 7. Phase 1 Requirements (Engineering Foundation)
 
-Per `05_AURAONE_PHASE_PLAN.md` Phase 1, the following must be added:
+Per `05_TANAIR_PHASE_PLAN.md` Phase 1, the following must be added:
 
 | Item | Priority |
 |---|---|

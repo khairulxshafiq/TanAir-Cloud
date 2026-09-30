@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-The existing AuraOne Cloud application uses Supabase strictly for Google OAuth client authentication (`@supabase/supabase-js`). The database holds zero application tables for AuraOne (Finding: `repository-inventory.md`, `data-flow-map.md §5`). In Phase 10, the platform will migrate from prototype in-memory state to persistent Supabase PostgreSQL tables (`profiles`, `sessions`, `messages`, `credit_ledger`, `memories`, `bots`, `audit_log`). Without a version-controlled database migration strategy, applying schema changes across local, staging, and production will cause schema drift, downtime, and data corruption.
+The existing TanAir Cloud application uses Supabase strictly for Google OAuth client authentication (`@supabase/supabase-js`). The database holds zero application tables for TanAir (Finding: `repository-inventory.md`, `data-flow-map.md §5`). In Phase 10, the platform will migrate from prototype in-memory state to persistent Supabase PostgreSQL tables (`profiles`, `sessions`, `messages`, `credit_ledger`, `memories`, `bots`, `audit_log`). Without a version-controlled database migration strategy, applying schema changes across local, staging, and production will cause schema drift, downtime, and data corruption.
 
 ## Context & Constraints
 - **Audit Findings:** `repository-inventory.md` (no `supabase/` directory), `environment-inventory.md` (single production Supabase instance used for dev).
@@ -48,7 +48,7 @@ We decide to adopt **Option C: Declarative Version-Controlled SQL via Supabase C
    - `006_bots.sql` (Custom Bot Studio definitions)
    - `007_audit_log.sql` (Platform observability and security audit)
 3. Every table must execute `ALTER TABLE <table_name> ENABLE ROW LEVEL SECURITY;` before any data insertion.
-4. Separate `auraone-dev`, `auraone-staging`, and `auraone-prod` Supabase projects to eliminate environment pollution.
+4. Separate `tanair-dev`, `tanair-staging`, and `tanair-prod` Supabase projects to eliminate environment pollution.
 
 ## Consequences
 

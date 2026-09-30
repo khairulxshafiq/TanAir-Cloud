@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-/* AuraOne Design System Tokens */
+/* TanAir Design System Tokens */
 @import '../styles/tokens/primitives.css';
 @import '../styles/tokens/typography.css';
 @import '../styles/tokens/spacing.css';

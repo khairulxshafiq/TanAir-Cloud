@@ -1,4 +1,4 @@
-# AuraOne Product Brief
+# TanAir Product Brief
 
 Status: Founder Draft  
 Owner: Khairul  
@@ -14,13 +14,13 @@ Last reviewed: 2026-09-20
 # 1. Product Identity
 
 ## Official product name
-AuraOne
+TanAir
 
 ## Product company
 Norliv Labs
 
 ## Brand presentation
-`AuraOne by Norliv Labs`
+`TanAir by Norliv Labs`
 
 ## Primary headline
 `One Place for Everything AI.`
@@ -58,7 +58,7 @@ Many AI tools are:
 4. Fragmented across multiple products
 5. Unfamiliar with Malaysian language and business context
 
-## AuraOne value proposition
+## TanAir value proposition
 
 1. One AI workspace for conversations, content, analysis, and automation
 2. English-first interface with strong Bahasa Melayu support
@@ -178,10 +178,10 @@ English is the default product interface. Bahasa Melayu must remain a complete, 
 Norliv Labs
 
 ## Product
-AuraOne
+TanAir
 
 ## Brand lock-up
-`AuraOne by Norliv Labs`
+`TanAir by Norliv Labs`
 
 ## AI assistants
 Working assistant names:
@@ -193,21 +193,21 @@ Working assistant names:
 - Akira
 
 ## Naming principle
-AuraOne is the platform. Individual assistants are experiences or specialised capabilities within AuraOne.
+TanAir is the platform. Individual assistants are experiences or specialised capabilities within TanAir.
 
 ## Recommended user language
 
 Preferred:
 
-- “Ask AuraOne.”
-- “Create it in AuraOne.”
-- “My AuraOne assistant remembers this.”
-- “Build an assistant in AuraOne.”
+- “Ask TanAir.”
+- “Create it in TanAir.”
+- “My TanAir assistant remembers this.”
+- “Build an assistant in TanAir.”
 
 Avoid:
 
-- “Log in to AuraOne Cloud.”
-- “Deploy an AuraOne agent instance.”
+- “Log in to TanAir Cloud.”
+- “Deploy an TanAir agent instance.”
 - “Configure your AI orchestration environment.”
 
 ---
@@ -226,10 +226,10 @@ GitHub: `khairulxshafiq` [CHECK]
 
 ## Support contacts
 
-Support email: `support@auraone.my` [CHECK]  
-Billing email: `billing@auraone.my` [CHECK]  
-Security email: `security@auraone.my` [CHECK]  
-Privacy email: `privacy@auraone.my` [CHECK]  
+Support email: `support@tanair.my` [CHECK]  
+Billing email: `billing@tanair.my` [CHECK]  
+Security email: `security@tanair.my` [CHECK]  
+Privacy email: `privacy@tanair.my` [CHECK]  
 Support telephone: [CHECK]  
 Support hours: `9:00 AM to 6:00 PM MYT, Monday to Friday` [CHECK]  
 Time zone: `Asia/Kuala_Lumpur, UTC+8`
@@ -251,18 +251,18 @@ Only publish an address when legally necessary and after deciding whether a regi
 
 # 5. Domains and URLs
 
-Production domain: `auraone.my` [VERIFY OWNERSHIP]  
-Marketing site: `https://auraone.my` [CHECK]  
-Application: `https://app.auraone.my` [PROPOSED]  
+Production domain: `tanair.my` [VERIFY OWNERSHIP]  
+Marketing site: `https://tanair.my` [CHECK]  
+Application: `https://app.tanair.my` [PROPOSED]  
 Admin: Private access only  
 Staging: [PRIVATE]  
 Preview: [PRIVATE]  
-Status page: `https://status.auraone.my` [PLANNED]  
-Documentation: `https://docs.auraone.my` [PLANNED]  
-Privacy Policy: `https://auraone.my/privacy` [PLANNED]  
-Terms of Service: `https://auraone.my/terms` [PLANNED]  
-Refund Policy: `https://auraone.my/refunds` [PLANNED]  
-Contact: `https://auraone.my/contact` [PLANNED]
+Status page: `https://status.tanair.my` [PLANNED]  
+Documentation: `https://docs.tanair.my` [PLANNED]  
+Privacy Policy: `https://tanair.my/privacy` [PLANNED]  
+Terms of Service: `https://tanair.my/terms` [PLANNED]  
+Refund Policy: `https://tanair.my/refunds` [PLANNED]  
+Contact: `https://tanair.my/contact` [PLANNED]
 
 ## Domain rules
 
@@ -277,7 +277,7 @@ Contact: `https://auraone.my/contact` [PLANNED]
 # 6. Homepage
 
 ## Logo text
-`AuraOne`
+`TanAir`
 
 ## Brand attribution
 `by Norliv Labs`
@@ -296,10 +296,10 @@ Option B:
 `From conversations to content, analysis, automation, and everyday tasks.`
 
 ## Supporting description
-`AuraOne is a personal AI workspace that remembers your context and helps you communicate, create, research, and get work done.`
+`TanAir is a personal AI workspace that remembers your context and helps you communicate, create, research, and get work done.`
 
 ## Primary CTA
-`Start with AuraOne`
+`Start with TanAir`
 
 ## Alternative primary CTA
 `Start Chatting`
@@ -318,7 +318,7 @@ Home › Features › Assistants › Use Cases › Pricing › About › Sign In
 
 Recommended launch copy:
 
-`AuraOne early access is opening soon. Join the waitlist.`
+`TanAir early access is opening soon. Join the waitlist.`
 
 Alternative with pricing:
 
@@ -354,15 +354,15 @@ Do not force the word “one” into every sentence. Use it mainly in the headli
 
 ## Section 1: Hero
 
-**AuraOne**
+**TanAir**
 
 # One Place for Everything AI.
 
 From conversations to content, analysis, automation, and everyday tasks.
 
-AuraOne is a personal AI workspace that remembers your context and helps you get things done.
+TanAir is a personal AI workspace that remembers your context and helps you get things done.
 
-`[Start with AuraOne]` `[Try the Demo]`
+`[Start with TanAir]` `[Try the Demo]`
 
 Built in Malaysia. Ready for the world.
 
@@ -370,7 +370,7 @@ Built in Malaysia. Ready for the world.
 
 # One assistant, built around you.
 
-AuraOne can understand your goals, remember approved context, and support your everyday work without requiring complicated technical setup.
+TanAir can understand your goals, remember approved context, and support your everyday work without requiring complicated technical setup.
 
 ## Section 3: Key capabilities
 
@@ -384,13 +384,13 @@ Draft content, messages, plans, ideas, and visual assets from one workspace.
 Review information, files, and data with an assistant that maintains the relevant context.
 
 ### Automate
-Schedule recurring tasks and connect supported tools as AuraOne’s automation capabilities expand.
+Schedule recurring tasks and connect supported tools as TanAir’s automation capabilities expand.
 
 ## Section 4: Malaysian-first experience
 
 # Global by design. Malaysian at heart.
 
-Use AuraOne in English or Bahasa Melayu, with an experience designed around how Malaysians communicate and work.
+Use TanAir in English or Bahasa Melayu, with an experience designed around how Malaysians communicate and work.
 
 `Seorang pekerja. Seorang founder. Satu AI yang sentiasa membantu.`
 
@@ -398,7 +398,7 @@ Use AuraOne in English or Bahasa Melayu, with an experience designed around how 
 
 # An AI that remembers what matters.
 
-AuraOne can remember approved preferences, goals, and working context, while giving users control over what is saved and deleted.
+TanAir can remember approved preferences, goals, and working context, while giving users control over what is saved and deleted.
 
 ## Section 6: Assistants
 
@@ -427,7 +427,7 @@ Start with one assistant for your conversations, ideas, content, analysis, and e
 # 9. Footer
 
 ## Footer statement
-`AuraOne is your personal AI workspace for conversations, content, analysis, automation, and everyday tasks.`
+`TanAir is your personal AI workspace for conversations, content, analysis, automation, and everyday tasks.`
 
 ## Brand signature
 `Built in Malaysia by Norliv Labs.`
@@ -471,7 +471,7 @@ Start with one assistant for your conversations, ideas, content, analysis, and e
 - Telegram: [CHECK]
 
 ## Copyright
-`© 2026 Norliv Labs. AuraOne and associated marks are owned by Norliv Labs. All rights reserved.`
+`© 2026 Norliv Labs. TanAir and associated marks are owned by Norliv Labs. All rights reserved.`
 
 [CHECK LEGAL ENTITY AND TRADEMARK WORDING]
 
@@ -487,7 +487,7 @@ Favicon: `/favicon.ico`
 Monochrome logo: [TO CREATE]
 
 ## Logo rule
-Maintain clear space equal to at least the height of the “O” in the AuraOne wordmark.
+Maintain clear space equal to at least the height of the “O” in the TanAir wordmark.
 
 ## Working colours
 
@@ -593,7 +593,7 @@ A capability must not be advertised as publicly available until it is secure, mu
 Hermes
 
 ## External presentation
-Do not make Hermes the primary customer-facing brand. AuraOne is the product users interact with.
+Do not make Hermes the primary customer-facing brand. TanAir is the product users interact with.
 
 ## Current architecture
 
@@ -847,7 +847,7 @@ Export memories: Required
 ## Memory promise
 Users should always understand:
 
-1. What AuraOne proposes to remember
+1. What TanAir proposes to remember
 2. Why it may be useful
 3. Where it is stored
 4. How to edit or delete it
@@ -1061,8 +1061,8 @@ Uses browser storage and server-side prototype storage.
 - `Your data never leaves Malaysia.`
 - `Your data is fully secure.`
 - `Your content is never retained by providers.`
-- `AuraOne is enterprise-grade.`
-- `AuraOne is compliant with every international privacy law.`
+- `TanAir is enterprise-grade.`
+- `TanAir is compliant with every international privacy law.`
 
 ## Planned controls
 
@@ -1109,7 +1109,7 @@ Final risk approval: Founder
 - Vulnerability disclosure email
 
 ## Vulnerability contact
-`security@auraone.my` [CHECK]
+`security@tanair.my` [CHECK]
 
 ## Incident severity model
 
@@ -1138,13 +1138,13 @@ Final risk approval: Founder
 - [ ] Age requirement decision
 
 ## General AI disclosure
-`AuraOne can make mistakes. Verify important information before acting on it.`
+`TanAir can make mistakes. Verify important information before acting on it.`
 
 ## Financial-information disclosure
-`Information provided through AuraOne is for general informational purposes only and is not financial or investment advice. Markets involve risk, and users remain responsible for their own decisions.`
+`Information provided through TanAir is for general informational purposes only and is not financial or investment advice. Markets involve risk, and users remain responsible for their own decisions.`
 
 ## Important boundary
-AuraOne should provide information and analysis only unless a properly reviewed, authorised, and regulated execution capability is introduced later.
+TanAir should provide information and analysis only unless a properly reviewed, authorised, and regulated execution capability is introduced later.
 
 ---
 
@@ -1355,9 +1355,9 @@ RM1,000 MRR in the first validated commercial stage [CHECK]
 
 ## Brand
 
-- [ ] Confirm `AuraOne` as the official product name
+- [ ] Confirm `TanAir` as the official product name
 - [ ] Confirm `Norliv Labs` as the company or trading brand
-- [ ] Confirm `AuraOne by Norliv Labs`
+- [ ] Confirm `TanAir by Norliv Labs`
 - [ ] Confirm the headline `One Place for Everything AI.`
 - [ ] Confirm the signature `Built in Malaysia. Ready for the world.`
 
@@ -1404,10 +1404,10 @@ RM1,000 MRR in the first validated commercial stage [CHECK]
 `One Place for Everything AI.`
 
 ## Product promise
-AuraOne gives people one personal AI workspace for conversations, content, analysis, automation, and everyday tasks.
+TanAir gives people one personal AI workspace for conversations, content, analysis, automation, and everyday tasks.
 
 ## Malaysian identity
-AuraOne is built in Malaysia and begins by serving Malaysian users well, without limiting its long-term international ambition.
+TanAir is built in Malaysia and begins by serving Malaysian users well, without limiting its long-term international ambition.
 
 ## Local campaign hook
 `Seorang pekerja. Seorang founder. Satu AI yang sentiasa membantu.`
@@ -1419,7 +1419,7 @@ The initial public product does not need to expose every internal capability. It
 
 ## Final brand block
 
-**AuraOne**
+**TanAir**
 
 **One Place for Everything AI.**
 
@@ -1427,4 +1427,4 @@ From conversations to content, analysis, automation, and everyday tasks.
 
 Built in Malaysia. Ready for the world.
 
-**AuraOne by Norliv Labs**
+**TanAir by Norliv Labs**

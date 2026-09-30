@@ -1,4 +1,4 @@
-# AuraOne Cloud — System Overview
+# TanAir Cloud — System Overview
 ## Architecture Documentation
 
 **Version:** 0C  
@@ -8,9 +8,9 @@
 
 ---
 
-## 1. What AuraOne Cloud Is
+## 1. What TanAir Cloud Is
 
-AuraOne Cloud is a **Bahasa Melayu-first, multi-agent AI SaaS platform** for Malaysian solopreneurs and enterprises. It provides a unified cockpit for communicating with specialized AI agents — each with distinct capabilities, personas, and billing modes — backed by the Hermes VPS ReAct Engine and exposed via a modern Next.js web application.
+TanAir Cloud is a **Bahasa Melayu-first, multi-agent AI SaaS platform** for Malaysian solopreneurs and enterprises. It provides a unified cockpit for communicating with specialized AI agents — each with distinct capabilities, personas, and billing modes — backed by the Hermes VPS ReAct Engine and exposed via a modern Next.js web application.
 
 ---
 
@@ -133,8 +133,8 @@ TOP-UP (all tiers)
 6. middleware.ts validates Supabase session cookie → extracts userId
 7. QuotaService.check(userId) → abort if insufficient
 8. HermesGatewayAdapter.send(message, sessionId, agentId, userId)
-9. POST https://gateway.auraone.my/api/chat/start (HTTPS + shared secret)
-10. GET https://gateway.auraone.my/api/chat/stream?stream_id=...
+9. POST https://gateway.tanair.my/api/chat/start (HTTPS + shared secret)
+10. GET https://gateway.tanair.my/api/chat/stream?stream_id=...
 11. SSE stream piped to browser
 12. On stream completion: QuotaService.deduct(userId, tokensUsed)
 13. AuditLogService.log({ event: 'chat.message', userId, sessionId, agentId })

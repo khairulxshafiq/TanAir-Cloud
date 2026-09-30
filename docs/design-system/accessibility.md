@@ -1,7 +1,7 @@
 # Accessibility Strategy & WCAG 2.1 AA Compliance
 
 ## 1. Compliance Target
-AuraOne Cloud targets strict **WCAG 2.1 Level AA** compliance across all user-facing interfaces.
+TanAir Cloud targets strict **WCAG 2.1 Level AA** compliance across all user-facing interfaces.
 
 ## 2. Core Implementation Patterns
 

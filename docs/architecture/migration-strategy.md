@@ -1,4 +1,4 @@
-# AuraOne Cloud — Migration Strategy
+# TanAir Cloud — Migration Strategy
 ## Architecture Documentation
 
 **Version:** 0C  
@@ -10,7 +10,7 @@
 
 ## 1. Overview
 
-AuraOne Cloud's migration strategy is anchored around two major transitions:
+TanAir Cloud's migration strategy is anchored around two major transitions:
 
 1. **Code Architecture Migration** — Decomposing the prototype (657-line `page.tsx`) into a layered, modular architecture without breaking existing functionality.
 
@@ -286,12 +286,12 @@ CREATE POLICY "admin_read_audit_log" ON public.audit_log
 
 | Environment | Supabase Project | Vercel | Hermes |
 |---|---|---|---|
-| Local Dev | `auraone-dev` (new project) | localhost:3000 | Mock adapter or real VPS |
-| Preview (PR) | `auraone-dev` | Vercel preview URL | Mock adapter |
-| Staging | `auraone-staging` (new project) | Vercel staging URL | Real VPS (test env) |
+| Local Dev | `tanair-dev` (new project) | localhost:3000 | Mock adapter or real VPS |
+| Preview (PR) | `tanair-dev` | Vercel preview URL | Mock adapter |
+| Staging | `tanair-staging` (new project) | Vercel staging URL | Real VPS (test env) |
 | Production | `AuraAgentic` (existing) | Vercel production URL | Real VPS (production) |
 
-**Phase 1 action:** Create `auraone-dev` Supabase project to stop local dev polluting production.
+**Phase 1 action:** Create `tanair-dev` Supabase project to stop local dev polluting production.
 
 ---
 

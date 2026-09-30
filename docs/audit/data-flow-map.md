@@ -1,5 +1,5 @@
 # Data Flow Map
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -40,7 +40,7 @@ UI re-renders: shows ChatCockpit
 **Data stored on login:**
 - Supabase session token stored in browser (localStorage or cookie — default Supabase behaviour)
 - `user.email` rendered in header
-- No user data written to any Supabase DB table by AuraOne code (no custom `users` table write)
+- No user data written to any Supabase DB table by TanAir code (no custom `users` table write)
 
 ---
 
@@ -218,7 +218,7 @@ UI shows login gate
                         │  Project: AuraAgentic       │
                         │                             │
                         │  Auth: Google OAuth ✅      │
-                        │  DB: No AuraOne tables yet  │
+                        │  DB: No TanAir tables yet  │
                         │  Storage: Not configured    │
                         └─────────────────────────────┘
 ```
@@ -230,7 +230,7 @@ UI shows login gate
 | Data | How Handled | Risk |
 |---|---|---|
 | User email | Rendered in UI header (`user.email`) | LOW — user can see own email |
-| Google OAuth tokens | Managed by Supabase, not handled by AuraOne code | ✅ Safe |
+| Google OAuth tokens | Managed by Supabase, not handled by TanAir code | ✅ Safe |
 | Supabase anon key | In `lib/supabase.ts` — falls back to empty string if env absent | LOW — anon key is designed to be public |
 | Supabase URL | In `.env.example` and `lib/supabase.ts` — public safe | LOW |
 | VPS IP address | In `.env.example` — committed to repo | MEDIUM — VPS IP exposed in public repo |

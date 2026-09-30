@@ -18,11 +18,11 @@ describe('Layout & Application Shell Components (components/layout/)', () => {
 
   it('AppHeader renders header landmark with actions', () => {
     const element = React.createElement(AppHeader, {
-      title: 'AuraOne Chat',
+      title: 'TanAir Chat',
       rightAction: React.createElement('div', null, 'Action'),
     });
 
-    expect(element.props.title).toBe('AuraOne Chat');
+    expect(element.props.title).toBe('TanAir Chat');
     expect(element.props.rightAction).toBeDefined();
   });
 
@@ -30,7 +30,7 @@ describe('Layout & Application Shell Components (components/layout/)', () => {
     const element = React.createElement(
       AppSidebar,
       {
-        brand: React.createElement('span', null, 'AuraOne'),
+        brand: React.createElement('span', null, 'TanAir'),
       },
       React.createElement('div', null, 'Links'),
     );
@@ -43,7 +43,7 @@ describe('Layout & Application Shell Components (components/layout/)', () => {
     const element = React.createElement(
       PublicShell,
       {
-        brand: React.createElement('span', null, 'AuraOne Public'),
+        brand: React.createElement('span', null, 'TanAir Public'),
       },
       React.createElement('p', null, 'Content'),
     );

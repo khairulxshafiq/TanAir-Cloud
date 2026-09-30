@@ -1,5 +1,5 @@
 # Route Inventory
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -40,7 +40,7 @@
 
 #### UI Sections (when authenticated)
 - **Sidebar** (left, responsive drawer on mobile)
-  - Brand header (AuraOne Cloud logo text)
+  - Brand header (TanAir Cloud logo text)
   - "Sesi Perbualan Baru" button (creates new in-memory session)
   - Agent selector (6 agents: Aura, Aura-Trade, Aura-Pen, Aura-Art, Aura-Scout, Aura-Vision)
   - Session history list (in-memory only)

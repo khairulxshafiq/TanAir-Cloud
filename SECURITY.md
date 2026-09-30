@@ -1,6 +1,6 @@
-# Dasar Keselamatan (Security Policy) — AuraOne Cloud
+# Dasar Keselamatan (Security Policy) — TanAir Cloud
 
-Keselamatan dan privasi data pengguna adalah keutamaan mutlak dalam pembinaan platform AI SaaS AuraOne Cloud. Dokumen ini menggariskan versi yang disokong, prosedur pelaporan kerentanan, dan kawalan keselamatan sedia ada.
+Keselamatan dan privasi data pengguna adalah keutamaan mutlak dalam pembinaan platform AI SaaS TanAir Cloud. Dokumen ini menggariskan versi yang disokong, prosedur pelaporan kerentanan, dan kawalan keselamatan sedia ada.
 
 ---
 
@@ -22,7 +22,7 @@ Sekiranya anda menemui sebarang isu keselamatan atau kerentanan, kami memohon an
 
 1. **JANGAN** membuka isu awam (_public GitHub issue_) atau mendedahkan kelemahan di media sosial/forum awam.
 2. Sila hantar laporan terperinci secara peribadi kepada pasukan sekuriti melalui emel:  
-   **security@auraone.my** (atau terus kepada Pengasas).
+   **security@tanair.my** (atau terus kepada Pengasas).
 3. Sertakan butiran berikut dalam laporan anda:
    - Deskripsi ringkas kerentanan dan impaknya.
    - Langkah demi langkah untuk menghasilkan semula isu (_step-by-step reproduction steps_).
@@ -39,7 +39,7 @@ Sekiranya anda menemui sebarang isu keselamatan atau kerentanan, kami memohon an
 
 ## 3. Kawalan Keselamatan Utama (Key Security Controls)
 
-AuraOne Cloud telah mengintegrasikan pelbagai lapisan pertahanan mendalam (_defense-in-depth_):
+TanAir Cloud telah mengintegrasikan pelbagai lapisan pertahanan mendalam (_defense-in-depth_):
 
 1. **Autentikasi Pelayan Tegar (_Server-Side Auth Gate_):**
    - Semua panggilan ke endpoint sensitif seperti `/api/chat` diwajibkan memiliki sesi pengguna sah yang disahkan oleh Supabase Auth pada peringkat pelayan.

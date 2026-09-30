@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-Phase 1A executes **Security Containment** for AuraOne Cloud. Its sole objective is to address the highest-priority security and operational risks identified in Phase 0A/0B audits without introducing new product features or executing a broad architectural rewrite.
+Phase 1A executes **Security Containment** for TanAir Cloud. Its sole objective is to address the highest-priority security and operational risks identified in Phase 0A/0B audits without introducing new product features or executing a broad architectural rewrite.
 
 The primary security exposures being contained are:
 1. Unauthenticated access to `POST /api/chat` (Finding `SEC-001`).

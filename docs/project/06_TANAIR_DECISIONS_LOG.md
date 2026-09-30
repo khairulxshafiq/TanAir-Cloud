@@ -1,6 +1,6 @@
-# 06 — AuraOne Decisions Log
+# 06 — TanAir Decisions Log
 
-# AuraOne Cloud Decisions Log
+# TanAir Cloud Decisions Log
 
 This log records product and architecture decisions.
 
@@ -71,11 +71,11 @@ Status:
 Accepted
 
 Decision:
-AuraOne uses a Bahasa Melayu-first interface with English as a
+TanAir uses a Bahasa Melayu-first interface with English as a
 supported secondary language.
 
 Reason:
-AuraOne requires a recognisable identity and an approachable
+TanAir requires a recognisable identity and an approachable
 experience for Malaysian users.
 
 Consequences:
@@ -204,7 +204,7 @@ Reason:
 Reduce onboarding friction.
 
 Consequence:
-AuraOne may gently invite users to complete their profile later.
+TanAir may gently invite users to complete their profile later.
 
 ---
 
@@ -217,7 +217,7 @@ Status:
 Accepted
 
 Decision:
-AuraOne supports dark, light and system-preference themes.
+TanAir supports dark, light and system-preference themes.
 
 Default:
 System preference, falling back to dark.
@@ -236,7 +236,7 @@ Status:
 Accepted
 
 Decision:
-AuraOne uses restrained purple-gold accents.
+TanAir uses restrained purple-gold accents.
 
 Reason:
 Purple communicates AI intelligence while warm gold communicates
@@ -307,7 +307,7 @@ Antigravity must complete read-only discovery, audit and architecture
 baseline before Phase 1.
 
 Reason:
-It has direct access to existing AuraOne systems, so assumptions
+It has direct access to existing TanAir systems, so assumptions
 could damage stable integrations.
 
 ---
@@ -358,7 +358,7 @@ Status:
 Accepted
 
 Decision:
-While localStorage is used, AuraOne states that prototype data is
+While localStorage is used, TanAir states that prototype data is
 stored on the user’s device.
 
 Do not claim Singapore data residency until infrastructure confirms
@@ -412,7 +412,7 @@ Status:
 Accepted
 
 Decision owner:
-Khairul Shafiq (Founder) via AuraOne DevOps audit
+Khairul Shafiq (Founder) via TanAir DevOps audit
 
 Context:
 Docs pack originally contained two structural duplicates
@@ -422,16 +422,16 @@ ambiguity when AI agents follow reading order and when references
 exist in PR descriptions or cron jobs.
 
 Decision:
-1. Delete `07_AURAONE_EXECUTION_GUIDE.md` entirely.
-2. Make `02_AURAONE_ENDSTATE_VISION.md` the canonical
+1. Delete `07_TANAIR_EXECUTION_GUIDE.md` entirely.
+2. Make `02_TANAIR_ENDSTATE_VISION.md` the canonical
    Definition-of-Done document (version bumped to 1.1).
-3. Convert `08_AURAONE_DEFINITION_OF_DONE.md` into a permanent
+3. Convert `08_TANAIR_DEFINITION_OF_DONE.md` into a permanent
    redirect stub pointing to 02.
 4. Reading order in 00_READ_ME_FIRST.md renumbered accordingly.
 5. Phase numbering: Engineering phases (Design System & Shell)
    labelled Phase 1C in operational instructions; product roadmap
    numbering (Private Alpha = Phase 2) taken from
-   01_AURAONE_PROJECT_INPUT.md.
+   01_TANAIR_PROJECT_INPUT.md.
 
 Reason:
 One canonical document per concern. Prevents agent drift and

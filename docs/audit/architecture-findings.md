@@ -1,5 +1,5 @@
 # Architecture Findings
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Software Architect)  
@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary
 
-AuraOne Cloud's current architecture is a **functional prototype** that intentionally accepts technical debt to ship quickly. The core concern is that all application logic — auth, chat streaming, UI rendering, session management, state, and business rules — lives inside a single 657-line component (`page.tsx`). This is acceptable at prototype stage but is a **migration blocker** for every phase from Phase 2 onwards.
+TanAir Cloud's current architecture is a **functional prototype** that intentionally accepts technical debt to ship quickly. The core concern is that all application logic — auth, chat streaming, UI rendering, session management, state, and business rules — lives inside a single 657-line component (`page.tsx`). This is acceptable at prototype stage but is a **migration blocker** for every phase from Phase 2 onwards.
 
 **Overall Architecture Score: 3/10** (Prototype — not production-grade)
 

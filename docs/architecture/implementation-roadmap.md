@@ -1,4 +1,4 @@
-# AuraOne Cloud — Implementation Roadmap
+# TanAir Cloud — Implementation Roadmap
 ## Architecture Documentation
 
 **Version:** 0C  
@@ -43,7 +43,7 @@
 | Add `aria-live="polite"` on message stream container | SHOULD | XS |
 | Add `motion-reduce:animate-none` on `animate-ping` element | SHOULD | XS |
 | Add `aria-label` to textarea | SHOULD | XS |
-| Create a separate `auraone-dev` Supabase project for local dev | COULD | M |
+| Create a separate `tanair-dev` Supabase project for local dev | COULD | M |
 
 ### Dependencies
 - None (Phase 1 can start immediately after Phase 0C approval)

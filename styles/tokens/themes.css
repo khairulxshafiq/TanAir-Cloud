@@ -1,10 +1,10 @@
 /**
- * AuraOne Design System — Themes Token System
+ * TanAir Design System — Themes Token System
  * Maps primitive values to semantic variables for Dark, Light, and System themes.
  */
 
 /* =============================================================================
-   1. Default Theme: Dark (AuraOne Primary Aesthetic)
+   1. Default Theme: Dark (TanAir Primary Aesthetic)
    ============================================================================= */
 :root,
 .dark {

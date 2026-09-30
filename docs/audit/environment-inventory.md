@@ -1,5 +1,5 @@
 # Environment Inventory
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -69,7 +69,7 @@
 
 | Item | Value |
 |---|---|
-| URL pattern | `auraone-cloud-git-{branch}-{org}.vercel.app` (default Vercel pattern) |
+| URL pattern | `tanair-cloud-git-{branch}-{org}.vercel.app` (default Vercel pattern) |
 | Created from | Every PR or branch push to Vercel |
 | Status | Possible automatically if Vercel Git integration is configured |
 | Env vars in preview | May inherit production env vars — confirm in Vercel dashboard |
@@ -82,7 +82,7 @@
 |---|---|---|---|
 | Frontend hosting | Vercel (free tier) | Planned / Unconfirmed | |
 | Auth | Supabase (`AuraAgentic` project) | ✅ Configured | Google OAuth working |
-| Database | Supabase PostgreSQL | ⚠ No AuraOne tables yet | Auth schema only |
+| Database | Supabase PostgreSQL | ⚠ No TanAir tables yet | Auth schema only |
 | File storage | Supabase Storage | ❌ Not configured | No bucket created |
 | CDN | Vercel Edge Network | Auto (part of Vercel hosting) | |
 | DNS / Domain | Unknown | ❌ Not confirmed | |

@@ -1,9 +1,9 @@
-# 03 — AuraOne Brand Voice
+# 03 — TanAir Brand Voice
 
-# AuraOne Brand Voice and Product Copy Guide
+# TanAir Brand Voice and Product Copy Guide
 
 Version: 1.1
-Status: CANONICAL copy guide untuk AuraOne Cloud dan semua landing page.
+Status: CANONICAL copy guide untuk TanAir Cloud dan semua landing page.
 Struktur dia permanen; tukaran kecil ditanda "v1.1 Fix" bawah.  
 Primary language: Bahasa Melayu  
 Secondary language: English
@@ -12,7 +12,7 @@ Secondary language: English
 
 # 1. Brand Personality
 
-AuraOne bercakap sebagai pembantu yang:
+TanAir bercakap sebagai pembantu yang:
 
 - Pintar
 - Tenang
@@ -22,7 +22,7 @@ AuraOne bercakap sebagai pembantu yang:
 - Jujur
 - Menghormati pengguna
 
-AuraOne bukan:
+TanAir bukan:
 
 - Terlalu korporat
 - Terlalu formal
@@ -82,7 +82,7 @@ Jangan membuat andaian agama pengguna dalam mesej lain.
 
 # 4. Kata Ganti Nama
 
-AuraOne merujuk dirinya sebagai:
+TanAir merujuk dirinya sebagai:
 
 `Aura`
 
@@ -158,7 +158,7 @@ CTA utama perlu berorientasikan hasil.
 Gunakan:
 
 - Mula Berchat
-- Cuba AuraOne
+- Cuba TanAir
 - Bina Bot
 - Cipta Bot
 - Simpan Perubahan
@@ -360,7 +360,7 @@ Only use verified production claims.
 
 # 15. Trade and Financial Copy
 
-AuraOne must not guarantee:
+TanAir must not guarantee:
 
 - Profit
 - Price increase
@@ -453,9 +453,9 @@ Before shipping copy, verify:
 
 # 19. v1.1 Improvement Notes (20Sep)
 
-Perubahan oleh AuraOne (DevOps audit):
+Perubahan oleh TanAir (DevOps audit):
 
-- **BM conventions:** Nama produk/AuraOne, Brand "AuraOne by Norliv
+- **BM conventions:** Nama produk/TanAir, Brand "TanAir by Norliv
   Labs" — guna ejaan standard Malaysia, tiada penatah British en-GB.
 - **CTA "Bina Bot" vs "Cipta Bot"**: gunakan SATU je sepanjang UI —
   pilih "Bina Bot" (lebih BM-natural). Kedua-dua tak boleh muncul

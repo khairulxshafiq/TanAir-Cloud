@@ -17,7 +17,7 @@
 | **Current Commit**      | `de79dc0`                                                           | Phase 0C baseline commit                           |
 | **Working Tree Status** | Clean (`nothing to commit, working tree clean`)                     | Zero uncommitted modifications                     |
 | **Phase 1A Branch**     | `phase/1a-security-containment`                                     | Completed with 27 passing tests (commit `4a7d05c`) |
-| **PR #1 Status**        | **OPEN** (`https://github.com/khairulxshafiq/AuraOne-Cloud/pull/1`) | Unmerged; awaiting founder merge                   |
+| **PR #1 Status**        | **OPEN** (`https://github.com/khairulxshafiq/TanAir-Cloud/pull/1`) | Unmerged; awaiting founder merge                   |
 | **Phase 1B Status**     | Pending                                                             | DevOps & CI workflow not yet applied to `main`     |
 
 > [!IMPORTANT]
@@ -288,7 +288,7 @@ app/
 
 ## 13. Brand Voice & Copy Migration List
 
-In accordance with `03_AURAONE_BRAND_VOICE.md` and `DEC-015`:
+In accordance with `03_TANAIR_BRAND_VOICE.md` and `DEC-015`:
 
 | Current Prototype Copy                              | Approved BM-First Copy                             | Rationale                                                   |
 | --------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------- |

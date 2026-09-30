@@ -1,8 +1,8 @@
-# Pelan Perlindungan Cabang (Branch Protection Plan) — AuraOne Cloud
+# Pelan Perlindungan Cabang (Branch Protection Plan) — TanAir Cloud
 
 **Dokumen:** `docs/operations/branch-protection-plan.md`  
 **Fasa:** Phase 1B (DevOps and Quality Foundation)  
-**Sasaran:** Repositori GitHub `khairulxshafiq/AuraOne-Cloud`  
+**Sasaran:** Repositori GitHub `khairulxshafiq/TanAir-Cloud`  
 **Tarikh:** 2026-09-20  
 **Pengarang:** Lead Senior DevOps Engineer & Platform Architect  
 
@@ -10,7 +10,7 @@
 
 ## 1. Pengenalan & Matlamat
 
-Bagi melindungi kestabilan, keselamatan, dan integriti kod pengeluaran AuraOne Cloud, cabang `main` mesti dilindungi dengan peraturan perlindungan cabang (**GitHub Branch Protection Rules**) yang ketat. Ini memastikan tiada perubahan yang tidak diuji atau tidak disahkan boleh dimasukkan secara langsung ke dalam pengeluaran.
+Bagi melindungi kestabilan, keselamatan, dan integriti kod pengeluaran TanAir Cloud, cabang `main` mesti dilindungi dengan peraturan perlindungan cabang (**GitHub Branch Protection Rules**) yang ketat. Ini memastikan tiada perubahan yang tidak diuji atau tidak disahkan boleh dimasukkan secara langsung ke dalam pengeluaran.
 
 ---
 

@@ -1,5 +1,5 @@
 # Developer Experience Findings
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Platform Engineer)  
@@ -204,13 +204,13 @@ Add to `package.json`:
 **Affected Files:** `README.md`
 
 **Description:**  
-The repository's README is the auto-generated Next.js template README. It contains no information about AuraOne: what it is, how to set it up, what env vars are required, or how to run the project.
+The repository's README is the auto-generated Next.js template README. It contains no information about TanAir: what it is, how to set it up, what env vars are required, or how to run the project.
 
 A new developer or AI agent reading this README will have no context about the project.
 
 **Recommendation:**  
 Replace with a project-specific README covering:
-- What AuraOne Cloud is (1–2 sentences)
+- What TanAir Cloud is (1–2 sentences)
 - Prerequisites (Node.js version, npm)
 - Setup steps (`npm install`, `.env.local` setup, Supabase config)
 - Development (`npm run dev`)

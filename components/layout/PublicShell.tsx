@@ -49,7 +49,7 @@ export const PublicShell: React.FC<PublicShellProps> = ({
       <footer className="border-t border-[var(--border-subtle)] bg-[var(--bg-elevated)] py-8 px-4 sm:px-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
           <div className="flex items-center gap-2 text-xs text-[var(--text-muted)]">
-            <span>&copy; {new Date().getFullYear()} AuraOne Cloud. Hak cipta terpelihara.</span>
+            <span>&copy; {new Date().getFullYear()} TanAir Cloud. Hak cipta terpelihara.</span>
             <span>•</span>
             <span className="text-[var(--accent-premium)] font-medium">
               Platform AI BM-First Malaysia

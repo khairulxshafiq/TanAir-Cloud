@@ -61,7 +61,7 @@ The following capabilities were strictly **not** implemented in this phase, pres
 ---
 
 ## Next Steps for Founder / Lead Architect
-1. Review Pull Request #4 on GitHub repository `khairulxshafiq/AuraOne-Cloud`.
+1. Review Pull Request #4 on GitHub repository `khairulxshafiq/TanAir-Cloud`.
 2. Perform visual inspection on staging environment.
 3. Merge PR #4 into `main` to establish the Phase 2 design system baseline before Phase 3 initiation.
 

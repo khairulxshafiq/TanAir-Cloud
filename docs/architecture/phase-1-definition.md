@@ -1,4 +1,4 @@
-# AuraOne Cloud — Phase 1 Definition
+# TanAir Cloud — Phase 1 Definition
 ## Engineering Foundation — Exact Scope
 
 **Version:** 0C  
@@ -26,7 +26,7 @@ Phase 1 is **Engineering Foundation** — the set of changes that transform the 
 
 ## 2. MUST DO — Critical (Security)
 
-These are blockers. AuraOne must not accept real users without these in place.
+These are blockers. TanAir must not accept real users without these in place.
 
 ---
 
@@ -90,7 +90,7 @@ Ensures all traffic between Vercel and Hermes gateway is encrypted over TLS.
 NEXT_PUBLIC_GATEWAY_URL=http://43.134.124.127:9119
 
 # .env.example AFTER:
-HERMES_GATEWAY_URL=https://gateway.auraone.my
+HERMES_GATEWAY_URL=https://gateway.tanair.my
 # (NEXT_PUBLIC_GATEWAY_URL removed — IP redacted from public repo)
 ```
 
@@ -370,7 +370,7 @@ Replace `alert("Ralat log masuk Google: " + error.message)` with an inline `erro
 
 | Item | Evidence | Effort |
 |---|---|---|
-| Create separate `auraone-dev` Supabase project for local dev | RR-DAT-001, env-inventory | M |
+| Create separate `tanair-dev` Supabase project for local dev | RR-DAT-001, env-inventory | M |
 | Add `CONTRIBUTING.md` with PR checklist | DEV-008 | S |
 | Add `SECURITY.md` with vulnerability disclosure contact | DEV-008 | S |
 | Add `lib/logger.ts` structured JSON logger | ADR-0015 | S |

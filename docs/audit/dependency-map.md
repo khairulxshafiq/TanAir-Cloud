@@ -1,5 +1,5 @@
 # Dependency Map
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -42,13 +42,13 @@
 | `sharp` | `0.35.4` | Next.js image optimisation |
 | `zod` | `4.6.5` | Schema validation (indirect — likely from supabase-js or eslint) |
 | `zod-validation-error` | `4.0.2` | Zod companion |
-| `hermes-parser` / `hermes-estree` | `0.25.1` | Meta's Hermes JS parser (via ESLint — **NOT related to AuraOne Hermes**) |
+| `hermes-parser` / `hermes-estree` | `0.25.1` | Meta's Hermes JS parser (via ESLint — **NOT related to TanAir Hermes**) |
 | `iceberg-js` | `0.8.1` | Uncertain source — check if needed |
 | `postcss` | `8.5.28` | CSS processing |
 | `styled-jsx` | `5.1.6` | Next.js internal (legacy CSS-in-JS) |
 
 > [!NOTE]
-> `hermes-parser` in `node_modules` refers to Meta's JavaScript parser used by ESLint — it has **no relation** to the AuraOne Hermes VPS agent engine.
+> `hermes-parser` in `node_modules` refers to Meta's JavaScript parser used by ESLint — it has **no relation** to the TanAir Hermes VPS agent engine.
 
 > [!WARNING]
 > `iceberg-js 0.8.1` appears in the lockfile as an indirect dependency. Its origin is unclear — it is not listed in `package.json` directly. If it persists after `npm ci`, its origin should be traced. Apache Iceberg is a data lakehouse format with no obvious relevance to this project.

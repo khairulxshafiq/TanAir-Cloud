@@ -1,6 +1,6 @@
-# 04 — AuraOne Master Blueprint
+# 04 — TanAir Master Blueprint
 
-# AuraOne Cloud Master Product and Engineering Blueprint
+# TanAir Cloud Master Product and Engineering Blueprint
 
 Version: 1.1  
 Status: Approved Direction  
@@ -12,7 +12,7 @@ ada logic sebenar utk multi-package, jangan refactor untuk estetika.
 
 # 1. Product Vision
 
-AuraOne ialah platform AI Bahasa Melayu-first yang menyatukan:
+TanAir ialah platform AI Bahasa Melayu-first yang menyatukan:
 
 - AI Chat
 - Trade mode
@@ -31,7 +31,7 @@ AuraOne ialah platform AI Bahasa Melayu-first yang menyatukan:
 
 # 2. Product Layers
 
-## AuraOne Chat
+## TanAir Chat
 
 Pengalaman pengguna paling mudah.
 
@@ -44,7 +44,7 @@ Includes:
 - Trial
 - Quota
 
-## AuraOne Studio
+## TanAir Studio
 
 Pengalaman advanced.
 
@@ -57,7 +57,7 @@ Includes:
 - Schedules
 - Connections
 
-## AuraOne Admin
+## TanAir Admin
 
 Pengalaman operasi SaaS.
 
@@ -282,7 +282,7 @@ Three steps:
 
 ## Sambungan and Jadual
 
-- AuraOne
+- TanAir
 - Telegram prototype
 - Email coming soon
 - One or more schedules
@@ -373,7 +373,7 @@ Rules:
 # 14. Recommended Repository Structure
 
 ```text
-auraone-cloud/
+tanair-cloud/
 ├── apps/
 │   └── web/
 │       ├── public/

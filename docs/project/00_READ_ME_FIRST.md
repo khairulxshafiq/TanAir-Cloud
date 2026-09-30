@@ -1,17 +1,17 @@
 # 00 — Read Me First
 
-# AuraOne Cloud Documentation Pack
+# TanAir Cloud Documentation Pack
 
 Version: 1.0  
 Status: Active — executed via phases  
-Document owner: Khairul Shafiq (Founder), AuraOne by Norliv Labs  
+Document owner: Khairul Shafiq (Founder), TanAir by Norliv Labs  
 Last updated: 2026-09-20
 
 ---
 
 ## Tujuan Folder Ini
 
-Folder ini ialah sumber rujukan utama bagi pembangunan AuraOne Cloud.
+Folder ini ialah sumber rujukan utama bagi pembangunan TanAir Cloud.
 
 Dokumen ini disediakan supaya:
 
@@ -34,13 +34,13 @@ Dokumen ini tidak menggantikan source code, migrations, tests atau runbook opera
 Semua AI agent, developer, DevOps engineer dan auditor mesti membaca fail dalam urutan berikut:
 
 1. `00_READ_ME_FIRST.md`
-2. `01_AURAONE_PROJECT_INPUT.md`
-3. `02_AURAONE_ENDSTATE_VISION.md`
-4. `03_AURAONE_BRAND_VOICE.md`
-5. `04_AURAONE_MASTER_BLUEPRINT.md`
-6. `05_AURAONE_PHASE_PLAN.md`
-7. `06_AURAONE_DECISIONS_LOG.md`
-8. `08_AURAONE_DEFINITION_OF_DONE.md` (redirect stub -> baca 02)
+2. `01_TANAIR_PROJECT_INPUT.md`
+3. `02_TANAIR_ENDSTATE_VISION.md`
+4. `03_TANAIR_BRAND_VOICE.md`
+5. `04_TANAIR_MASTER_BLUEPRINT.md`
+6. `05_TANAIR_PHASE_PLAN.md`
+7. `06_TANAIR_DECISIONS_LOG.md`
+8. `08_TANAIR_DEFINITION_OF_DONE.md` (redirect stub -> baca 02)
 
 Selepas itu, baca:
 
@@ -58,7 +58,7 @@ Selepas itu, baca:
 
 Founder perlu melengkapkan:
 
-`01_AURAONE_PROJECT_INPUT.md`
+`01_TANAIR_PROJECT_INPUT.md`
 
 Jangan membuat andaian terhadap maklumat yang masih ditandakan:
 
@@ -131,7 +131,7 @@ Setiap perubahan penting mesti menyatakan:
 
 ## Prinsip Pelaksanaan
 
-AuraOne mesti dibangunkan dengan aliran:
+TanAir mesti dibangunkan dengan aliran:
 
 ```text
 Discover
@@ -181,7 +181,7 @@ Arahan semasa:
   .nvmrc Node 22, prettier + coverage scripts, tanaman remediation
   P17 (Supabase hardcoded fallback URL) and P20 (staging vs
   production Supabase environment separation).
-- Numbering rule: gunakan roadmap dari 01_AURAONE_PROJECT_INPUT.md
+- Numbering rule: gunakan roadmap dari 01_TANAIR_PROJECT_INPUT.md
   (Phase 2 = Private Alpha). Design System phase dalam 05 phase plan
   dirujuk sebagai "Phase 1C" supaya tiada konflik nombor.
 - One phase at a time. Berhenti dan tunggu arahan founder selepas
@@ -194,10 +194,10 @@ Arahan semasa:
 
 Developer atau AI agent baharu sepatutnya dapat memahami perkara berikut tanpa meneka:
 
-- Apa itu AuraOne
+- Apa itu TanAir
 - Siapa pengguna sasaran
 - Bagaimana pengalaman pengguna perlu dirasakan
-- Apakah identiti visual AuraOne
+- Apakah identiti visual TanAir
 - Bagaimana Aura bercakap
 - Apakah capability Hermes
 - Apakah perbezaan Free, Trial Pro, Pro dan Empire

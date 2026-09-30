@@ -226,7 +226,7 @@ export default function CloudCockpit() {
       });
 
       if (!res.ok) {
-        let errMsg = 'Gagal menyambung ke enjin perbualan AuraOne.';
+        let errMsg = 'Gagal menyambung ke enjin perbualan TanAir.';
         try {
           const errData = await res.json();
           if (errData?.error?.message) {
@@ -243,7 +243,7 @@ export default function CloudCockpit() {
       }
 
       if (!res.body) {
-        throw new Error('Gagal menyambung ke enjin perbualan AuraOne.');
+        throw new Error('Gagal menyambung ke enjin perbualan TanAir.');
       }
 
       const reader = res.body.getReader();
@@ -329,7 +329,7 @@ export default function CloudCockpit() {
             </div>
             <div>
               <h1 className="font-bold text-sm tracking-tight flex items-center gap-1.5 text-[var(--text-primary)]">
-                AuraOne{' '}
+                TanAir{' '}
                 <Badge variant="primary" size="sm">
                   Cloud
                 </Badge>
@@ -546,7 +546,7 @@ export default function CloudCockpit() {
                 <Bot className="w-8 h-8 text-[var(--accent-primary)]" />
               </div>
               <h3 className="text-xl font-bold text-[var(--text-primary)] mb-2">
-                AuraOne Cloud (Beta v1)
+                TanAir Cloud (Beta v1)
               </h3>
               <p className="text-sm text-[var(--text-secondary)] mb-6 leading-relaxed">
                 Antaramuka perbualan multi-ejen beridentiti Malaysia. Sila taip sebarang soalan atau
@@ -590,7 +590,7 @@ export default function CloudCockpit() {
                 <button
                   type="button"
                   onClick={() =>
-                    handleSendMessage('Bagaimanakah sistem kredit PAYG AuraOne berfungsi?')
+                    handleSendMessage('Bagaimanakah sistem kredit PAYG TanAir berfungsi?')
                   }
                   className="p-3 rounded-xl bg-[var(--bg-soft)] hover:bg-[var(--surface-hover)] border border-[var(--border-subtle)] text-left text-xs text-[var(--text-secondary)] transition-all hover:border-[var(--border-accent)]"
                 >
@@ -653,7 +653,7 @@ export default function CloudCockpit() {
                 >
                   <div className="flex items-center justify-between gap-4 mb-1">
                     <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-                      {msg.role === 'user' ? 'Anda' : `${activeAgent} · AuraOne`}
+                      {msg.role === 'user' ? 'Anda' : `${activeAgent} · TanAir`}
                     </span>
                     <span className="text-[10px] text-[var(--text-muted)] font-mono">
                       {msg.timestamp}
@@ -701,7 +701,7 @@ export default function CloudCockpit() {
             </div>
             <div className="flex items-center justify-between text-[11px] text-[var(--text-muted)] mt-2 px-1">
               <span>Shift + Enter untuk baris baru</span>
-              <span className="font-mono">AuraOne Cloud Beta · Multi-Tenant Vercel</span>
+              <span className="font-mono">TanAir Cloud Beta · Multi-Tenant Vercel</span>
             </div>
           </div>
         </footer>

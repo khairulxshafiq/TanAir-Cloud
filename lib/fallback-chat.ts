@@ -35,7 +35,7 @@ export function generateFallbackStream(
     lowerMsg.includes('harga')
   ) {
     reply =
-      `Sistem AuraOne Cloud menggunakan sistem **Pay-As-You-Go (PAYG)**.\n\n` +
+      `Sistem TanAir Cloud menggunakan sistem **Pay-As-You-Go (PAYG)**.\n\n` +
       `- Setiap pengguna Beta mendapat **RM10.00 kredit percuma** permulaan.\n` +
       `- Kos penggunaan ditolak secara telus mengikut jumlah token soalan & respons.\n` +
       `- Tambah nilai (topup) boleh dilakukan dengan pantas melalui integrasi FPX tempatan.`;
@@ -45,16 +45,16 @@ export function generateFallbackStream(
     lowerMsg.includes('salai')
   ) {
     reply =
-      `Jenama **Sakluma** (Daging Salai Tempurung Kelapa) adalah salah satu tunjang operasi komersial AuraOne.\n\n` +
+      `Jenama **Sakluma** (Daging Salai Tempurung Kelapa) adalah salah satu tunjang operasi komersial TanAir.\n\n` +
       `Ejen **Aura-Pen** bertanggungjawab menghasilkan draf konten beremosi dan promosi di Facebook/TikTok, manakala **Aura-Art** menjana visual produk yang memukau.`;
   } else {
     reply =
       `Mesej anda: "*${message}*"\n\n` +
-      `Saya telah merekodkan konteks perbualan ini ke dalam sesi kerja (*workspace sandbox*) anda di AuraOne Cloud.\n\n` +
+      `Saya telah merekodkan konteks perbualan ini ke dalam sesi kerja (*workspace sandbox*) anda di TanAir Cloud.\n\n` +
       `Sebagai pembantu AI berbilang ejen dengan piawaian Bahasa Melayu pintar, saya sedia membantu anda menyusun pelan tindakan, menjana teks, atau memproses tugasan automasi anda.`;
   }
 
-  const fullText = `Hai! Saya **${agent}** (AuraOne Cloud Assistant).\n\n${reply}`;
+  const fullText = `Hai! Saya **${agent}** (TanAir Cloud Assistant).\n\n${reply}`;
   const words = fullText.split(' ');
 
   return new ReadableStream<Uint8Array>({

@@ -1,5 +1,5 @@
 # Risk Register
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Lead Architect & Security Engineer)  

@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'AuraOne Cloud — Multi-Agent AI OS (Malaysia)',
+  title: 'TanAir Cloud — Multi-Agent AI OS (Malaysia)',
   description:
     'Platform multi-ejen AI perbualan dan operasi perniagaan BM-first untuk solopreneur & enterprise.',
 };

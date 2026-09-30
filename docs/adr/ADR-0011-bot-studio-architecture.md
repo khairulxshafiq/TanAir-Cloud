@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-AuraOne Cloud plans to empower Malaysian business owners to build their own autonomous custom bots (Bot Studio) with tailored personalities, business knowledge, and Telegram channels (Finding: `existing-feature-matrix.md §9`). Creating a custom execution runtime for every user bot would introduce immense server infrastructure overhead and cost. We need an architecture that allows dynamic bot creation while sharing the core Hermes reasoning engine safely under multi-tenant isolation.
+TanAir Cloud plans to empower Malaysian business owners to build their own autonomous custom bots (Bot Studio) with tailored personalities, business knowledge, and Telegram channels (Finding: `existing-feature-matrix.md §9`). Creating a custom execution runtime for every user bot would introduce immense server infrastructure overhead and cost. We need an architecture that allows dynamic bot creation while sharing the core Hermes reasoning engine safely under multi-tenant isolation.
 
 ## Context & Constraints
 - **Tier Entitlements:**

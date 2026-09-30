@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
       return createSafeErrorResponse(
         401,
         'AUTH_REQUIRED',
-        'Akses tidak sah. Sila log masuk ke akaun AuraOne anda terlebih dahulu.',
+        'Akses tidak sah. Sila log masuk ke akaun TanAir anda terlebih dahulu.',
         requestId,
       );
     }

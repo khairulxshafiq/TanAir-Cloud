@@ -1,5 +1,5 @@
 # Phase 0C Completion Report
-## AuraOne Cloud — Architecture Baseline & Implementation Strategy
+## TanAir Cloud — Architecture Baseline & Implementation Strategy
 
 **Generated:** 2026-09-20  
 **Auditor/Architect:** Antigravity (Lead Software Architect, Senior DevOps Engineer, Security Architect, Platform Engineer)  

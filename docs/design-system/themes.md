@@ -10,7 +10,7 @@
 ```
 [HTML Head: theme-script.ts]
       │
-      ├─ Reads localStorage('auraone-theme')
+      ├─ Reads localStorage('tanair-theme')
       ├─ Evaluates window.matchMedia('(prefers-color-scheme: dark)')
       └─ Mutates document.documentElement.dataset.theme ('light' | 'dark')
                │

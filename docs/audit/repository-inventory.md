@@ -1,5 +1,5 @@
 # Repository Inventory
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity  
@@ -11,8 +11,8 @@
 
 | Field | Value |
 |---|---|
-| Repository name | `auraone-cloud` |
-| Remote URL | `https://github.com/khairulxshafiq/AuraOne-Cloud` (also `AuraOne-Cloud`) |
+| Repository name | `tanair-cloud` |
+| Remote URL | `https://github.com/khairulxshafiq/TanAir-Cloud` (also `TanAir-Cloud`) |
 | Default branch | `main` |
 | Protected branches | None configured (single solo branch) |
 | Total commits | 2 |
@@ -29,7 +29,7 @@
 | Hash | Message | Notes |
 |---|---|---|
 | `e41d9db` | `docs: add SaaS project blueprint & rebrand personas to Aura-Series` | HEAD, origin/main — added 9 docs/project files + rebrand |
-| `83cad1e` | `feat(cloud): initialize AuraOne Cloud v1 (Next.js 16 + Tailwind + Supabase Auth + BM-First Streaming)` | Initial scaffolding commit |
+| `83cad1e` | `feat(cloud): initialize TanAir Cloud v1 (Next.js 16 + Tailwind + Supabase Auth + BM-First Streaming)` | Initial scaffolding commit |
 
 > [!NOTE]
 > Only 2 commits exist. There is no feature branch history, no PR history, no CHANGELOG. This confirms the project is at a very early scaffolding stage.
@@ -39,7 +39,7 @@
 ## 3. Full File Tree (Excluding `node_modules`, `.next`, `.git`)
 
 ```
-auraone-cloud/
+tanair-cloud/
 ├── .env.example                    ← Sample env vars (committed, safe)
 ├── .env.local                      ← LOCAL secrets (gitignored ✅)
 ├── .gitignore                      ← Standard Next.js gitignore
@@ -50,7 +50,7 @@ auraone-cloud/
 │   ├── api/
 │   │   └── chat/
 │   │       └── route.ts            ← SSE streaming chat API route
-│   ├── favicon.ico                 ← Default Next.js favicon (not AuraOne branded)
+│   ├── favicon.ico                 ← Default Next.js favicon (not TanAir branded)
 │   ├── globals.css                 ← Global CSS + design tokens (dark only)
 │   ├── layout.tsx                  ← Root layout (Inter + JetBrains Mono, lang="ms")
 │   └── page.tsx                    ← Single-page app (all UI, ~640 lines)
@@ -58,14 +58,14 @@ auraone-cloud/
 │   ├── audit/                      ← (being created by this audit)
 │   └── project/
 │       ├── 00_READ_ME_FIRST.md
-│       ├── 01_AURAONE_PROJECT_INPUT.md
-│       ├── 02_AURAONE_ENDSTATE_VISION.md
-│       ├── 03_AURAONE_BRAND_VOICE.md
-│       ├── 04_AURAONE_MASTER_BLUEPRINT.md
-│       ├── 05_AURAONE_PHASE_PLAN.md
-│       ├── 06_AURAONE_DECISIONS_LOG.md
-│       ├── 07_AURAONE_EXECUTION_GUIDE.md
-│       └── 08_AURAONE_DEFINITION_OF_DONE.md
+│       ├── 01_TANAIR_PROJECT_INPUT.md
+│       ├── 02_TANAIR_ENDSTATE_VISION.md
+│       ├── 03_TANAIR_BRAND_VOICE.md
+│       ├── 04_TANAIR_MASTER_BLUEPRINT.md
+│       ├── 05_TANAIR_PHASE_PLAN.md
+│       ├── 06_TANAIR_DECISIONS_LOG.md
+│       ├── 07_TANAIR_EXECUTION_GUIDE.md
+│       └── 08_TANAIR_DEFINITION_OF_DONE.md
 ├── eslint.config.mjs               ← ESLint 9 flat config (next + next/typescript)
 ├── lib/
 │   └── supabase.ts                 ← Supabase client factory
@@ -150,10 +150,10 @@ auraone-cloud/
 ## 6. Findings
 
 > [!WARNING]
-> **README.md is the default Next.js README**, not a project-specific README. It gives no information about AuraOne to a new developer. This must be replaced in Phase 1.
+> **README.md is the default Next.js README**, not a project-specific README. It gives no information about TanAir to a new developer. This must be replaced in Phase 1.
 
 > [!WARNING]
-> **`public/` contains only default Next.js SVG assets**. No AuraOne logo, favicon, or brand assets exist. All icons in the UI come from Lucide React (code-based). The favicon is the default Next.js favicon.
+> **`public/` contains only default Next.js SVG assets**. No TanAir logo, favicon, or brand assets exist. All icons in the UI come from Lucide React (code-based). The favicon is the default Next.js favicon.
 
 > [!NOTE]
 > **All application logic resides in a single file (`page.tsx` ~640 lines)**. This is consistent with an early prototype but will need decomposition into components, services, and hooks in Phase 2/4 per DEC-010.

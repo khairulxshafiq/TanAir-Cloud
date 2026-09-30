@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-AuraOne Cloud promises a frictionless "Three-Day Pro Trial" (72 hours, no credit card required) that grants access to advanced capabilities including Aura-Trade market analytics and image generation. Currently, this logic is non-existent in the codebase (Finding: `existing-feature-matrix.md §7`). There is no mechanism to track trial activation, compute expiration, degrade privileges back to the Free tier, or guard against multi-account trial abuse.
+TanAir Cloud promises a frictionless "Three-Day Pro Trial" (72 hours, no credit card required) that grants access to advanced capabilities including Aura-Trade market analytics and image generation. Currently, this logic is non-existent in the codebase (Finding: `existing-feature-matrix.md §7`). There is no mechanism to track trial activation, compute expiration, degrade privileges back to the Free tier, or guard against multi-account trial abuse.
 
 ## Context & Constraints
 - **Product Vision:** 72-hour trial unlocks Chat, Trade, and Image generation.

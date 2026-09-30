@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-AuraOne Cloud promises long-term personalization where agents remember business facts, user preferences, and strategic goals across sessions. However, automatic, unvetted background memory extraction creates severe privacy and hallucination risks—such as inadvertently capturing sensitive financial numbers, passwords, or personal medical details under Malaysia's Personal Data Protection Act (PDPA). Currently, no memory or user context storage exists (Finding: `existing-feature-matrix.md §8`).
+TanAir Cloud promises long-term personalization where agents remember business facts, user preferences, and strategic goals across sessions. However, automatic, unvetted background memory extraction creates severe privacy and hallucination risks—such as inadvertently capturing sensitive financial numbers, passwords, or personal medical details under Malaysia's Personal Data Protection Act (PDPA). Currently, no memory or user context storage exists (Finding: `existing-feature-matrix.md §8`).
 
 ## Context & Constraints
 - **Product Requirement:** "User-approved AI memories" — Aura proposes what to remember, but the human user retains explicit review, edit, and deletion control.

@@ -1,6 +1,6 @@
-# Panduan Menyumbang (Contributing Guide) — AuraOne Cloud
+# Panduan Menyumbang (Contributing Guide) — TanAir Cloud
 
-Selamat datang ke repositori **AuraOne Cloud**. Dokumen ini menggariskan piawaian kualiti, tatakelola git, dan proses pembangunan untuk mengekalkan kebolehpercayaan, keselamatan, dan prestasi platform AI SaaS BM-first ini.
+Selamat datang ke repositori **TanAir Cloud**. Dokumen ini menggariskan piawaian kualiti, tatakelola git, dan proses pembangunan untuk mengekalkan kebolehpercayaan, keselamatan, dan prestasi platform AI SaaS BM-first ini.
 
 ---
 
@@ -30,7 +30,7 @@ npm run dev
 
 ## 2. Strategi Cabang & Aliran Kerja Git (Git Workflow)
 
-AuraOne mengamalkan model pembangunan berasaskan cabang terancang (**Trunk-Based Development with Phased Isolation**):
+TanAir mengamalkan model pembangunan berasaskan cabang terancang (**Trunk-Based Development with Phased Isolation**):
 
 1. **`main`**: Cabang pengeluaran stabil. _Strictly protected_ — tiada _direct commit/push_ dibenarkan.
 2. **`phase/<fasa>-<nama>`**: Cabang pelaksanaan fasa (cth. `phase/1b-devops-quality-foundation`, `phase/2-design-system-app-shell`).

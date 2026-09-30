@@ -38,7 +38,7 @@ describe('Hermes Adapter Boundary (adapters/hermes)', () => {
     it('allows HTTPS in production mode', () => {
       Object.defineProperty(process.env, 'NODE_ENV', { value: 'production', configurable: true });
       expect(
-        () => new HermesGatewayAdapter({ gatewayUrl: 'https://gateway.auraone.my' }),
+        () => new HermesGatewayAdapter({ gatewayUrl: 'https://gateway.tanair.my' }),
       ).not.toThrow();
     });
 

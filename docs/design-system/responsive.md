@@ -1,7 +1,7 @@
 # Responsive Design Strategy
 
 ## 1. Breakpoints
-The AuraOne layout system utilizes modern responsive breakpoints aligned with mobile-first paradigms:
+The TanAir layout system utilizes modern responsive breakpoints aligned with mobile-first paradigms:
 - `sm`: `640px` (Compact smartphones)
 - `md`: `768px` (Tablets / Mobile-to-desktop boundary)
 - `lg`: `1024px` (Laptops and compact desktop displays)

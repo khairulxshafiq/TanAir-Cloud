@@ -42,7 +42,7 @@ Define a formal `IHermesAdapter` interface in `adapters/hermes/`. Implement `Her
 We decide to adopt **Option C: `IHermesAdapter` Interface & Gateway Implementation**.
 
 1. `app/api/chat/route.ts` delegates entirely to `ChatService`, which invokes `IHermesAdapter`.
-2. All production traffic routes over **HTTPS** to a secured domain (e.g. `https://gateway.auraone.my`), configured with an authentication secret header (`X-Aura-Secret`).
+2. All production traffic routes over **HTTPS** to a secured domain (e.g. `https://gateway.tanair.my`), configured with an authentication secret header (`X-Aura-Secret`).
 3. The selected agent ID is passed explicitly to the Hermes ReAct engine.
 4. `MockHermesAdapter` provides instant, deterministic BM responses during automated testing.
 

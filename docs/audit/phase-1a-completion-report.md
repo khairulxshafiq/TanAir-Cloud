@@ -1,5 +1,5 @@
 # Phase 1A Completion Report: Security Containment
-## AuraOne Cloud — Engineering Foundation
+## TanAir Cloud — Engineering Foundation
 
 **Generated:** 2026-09-20  
 **Lead Auditor / Architect:** Antigravity (Lead Senior DevOps Engineer, Security Engineer, Software Architect, Platform Engineer)  
@@ -11,7 +11,7 @@
 
 ## 1. Executive Summary
 
-Phase 1A executes the **Security Containment** mission for AuraOne Cloud. Its objective was to eliminate the critical security vulnerabilities discovered during Phase 0A/0B audits—specifically unauthenticated `/api/chat` access, lack of rate limiting, missing input validation, dropped agent selection, and plaintext HTTP transmission—without introducing new product features or executing a broad architectural rewrite.
+Phase 1A executes the **Security Containment** mission for TanAir Cloud. Its objective was to eliminate the critical security vulnerabilities discovered during Phase 0A/0B audits—specifically unauthenticated `/api/chat` access, lack of rate limiting, missing input validation, dropped agent selection, and plaintext HTTP transmission—without introducing new product features or executing a broad architectural rewrite.
 
 All code modifications are isolated on the dedicated branch `phase/1a-security-containment`. **Zero changes were pushed directly to `main`, and no pull requests were merged.**
 
@@ -80,10 +80,10 @@ Test Files  4 passed (4)
 
 | Command | Working Directory | Result |
 |---|---|---|
-| `npm run typecheck` (`tsc --noEmit`) | `/Users/khairulshafiq/Github/auraone-cloud` | ✅ Exit code 0 (0 errors) |
-| `npm run lint` (`eslint`) | `/Users/khairulshafiq/Github/auraone-cloud` | ✅ Exit code 0 (0 warnings, 0 errors) |
-| `npm run test` (`vitest run`) | `/Users/khairulshafiq/Github/auraone-cloud` | ✅ Exit code 0 (27 tests passed) |
-| `npm run build` (`next build`) | `/Users/khairulshafiq/Github/auraone-cloud` | ✅ Exit code 0 (Production build succeeded) |
+| `npm run typecheck` (`tsc --noEmit`) | `/Users/khairulshafiq/Github/tanair-cloud` | ✅ Exit code 0 (0 errors) |
+| `npm run lint` (`eslint`) | `/Users/khairulshafiq/Github/tanair-cloud` | ✅ Exit code 0 (0 warnings, 0 errors) |
+| `npm run test` (`vitest run`) | `/Users/khairulshafiq/Github/tanair-cloud` | ✅ Exit code 0 (27 tests passed) |
+| `npm run build` (`next build`) | `/Users/khairulshafiq/Github/tanair-cloud` | ✅ Exit code 0 (Production build succeeded) |
 
 ---
 
@@ -135,7 +135,7 @@ Test Files  4 passed (4)
 
 ## 7. Residual Risks & Blockers
 
-1. **Hermes TLS Transport (Pending External Action):** While the Next.js application enforces HTTPS in production, the remote Tencent Cloud VPS (`43.134.124.127:9119`) still operates plain HTTP until the founder/operator sets up a domain (`gateway.auraone.my`), Let's Encrypt TLS certificate, and Tencent Cloud Security Group origin restriction. (Documented in `docs/operations/hermes-transport-hardening.md`).
+1. **Hermes TLS Transport (Pending External Action):** While the Next.js application enforces HTTPS in production, the remote Tencent Cloud VPS (`43.134.124.127:9119`) still operates plain HTTP until the founder/operator sets up a domain (`gateway.tanair.my`), Let's Encrypt TLS certificate, and Tencent Cloud Security Group origin restriction. (Documented in `docs/operations/hermes-transport-hardening.md`).
 2. **In-Memory Rate Limiting Scope:** `MemoryRateLimiter` is in-process. In a horizontally auto-scaled multi-region Vercel deployment, rate limits will be per-instance. Phase 1B will provide an optional Upstash Redis adapter for globally synchronized limits.
 3. **Historical Git Exposure of VPS IP:** Although `.env.example` in `HEAD` is sanitized, Git history in older commits contains the IP. Tencent Cloud Security Group port 9119 lockdown is recommended once the HTTPS domain is live.
 
@@ -145,18 +145,18 @@ Test Files  4 passed (4)
 
 If regressions occur, rollback is zero-risk:
 - Revert the branch `phase/1a-security-containment` or switch back to `main`.
-- Detailed rollback procedures are documented in [`docs/operations/phase-1a-rollback.md`](file:///Users/khairulshafiq/Github/auraone-cloud/docs/operations/phase-1a-rollback.md).
+- Detailed rollback procedures are documented in [`docs/operations/phase-1a-rollback.md`](file:///Users/khairulshafiq/Github/tanair-cloud/docs/operations/phase-1a-rollback.md).
 
 ---
 
 ## 9. Founder Actions Required
 
 1. Review Pull Request `phase/1a-security-containment` targeting `main`.
-2. Follow [`docs/operations/hermes-transport-hardening.md`](file:///Users/khairulshafiq/Github/auraone-cloud/docs/operations/hermes-transport-hardening.md) to:
-   - Map `gateway.auraone.my` to `43.134.124.127` in DNS.
+2. Follow [`docs/operations/hermes-transport-hardening.md`](file:///Users/khairulshafiq/Github/tanair-cloud/docs/operations/hermes-transport-hardening.md) to:
+   - Map `gateway.tanair.my` to `43.134.124.127` in DNS.
    - Configure Nginx reverse proxy with SSL certificate on the VPS.
    - Restrict port 9119 to localhost in Tencent Cloud Security Group.
-   - Configure `HERMES_GATEWAY_URL=https://gateway.auraone.my` in Vercel.
+   - Configure `HERMES_GATEWAY_URL=https://gateway.tanair.my` in Vercel.
 
 ---
 

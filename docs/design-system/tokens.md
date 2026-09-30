@@ -1,7 +1,7 @@
 # Design Token Architecture
 
 ## 1. Token Structure
-AuraOne tokens are partitioned into logical CSS files located in `styles/tokens/`:
+TanAir tokens are partitioned into logical CSS files located in `styles/tokens/`:
 - `styles/tokens/primitives.css`: Raw color palettes (Royal Malay Purple, Songket Gold, slate neutrals, semantic feedback scales), base radii, shadows, z-indices.
 - `styles/tokens/themes.css`: Semantic mappings for light and dark modes (`--bg-primary`, `--bg-elevated`, `--text-primary`, `--border-subtle`, `--accent-primary`, etc.).
 - `styles/tokens/spacing.css`: 8px-based spatial system (`--spacing-1` = 4px, `--spacing-2` = 8px ... `--spacing-16` = 64px).

@@ -1,5 +1,5 @@
 # Scalability Findings
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Platform & Scalability Engineer)  
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-AuraOne Cloud is currently architected as a thin client-side wrapper over Next.js Serverless routes, connecting to a single-node Hermes instance running on an unscaled Tencent Cloud VPS (`43.134.124.127:9119`). While the frontend (Vercel) and database (Supabase) have inherent multi-tenant autoscaling mechanisms, the backend inference and gateway tier is a hard single point of failure (SPOF) that will experience degradation and bottlenecking under concurrent loads.
+TanAir Cloud is currently architected as a thin client-side wrapper over Next.js Serverless routes, connecting to a single-node Hermes instance running on an unscaled Tencent Cloud VPS (`43.134.124.127:9119`). While the frontend (Vercel) and database (Supabase) have inherent multi-tenant autoscaling mechanisms, the backend inference and gateway tier is a hard single point of failure (SPOF) that will experience degradation and bottlenecking under concurrent loads.
 
 **Overall Scalability Score: 3/10** (Prototype baseline — severe backend constraints)
 

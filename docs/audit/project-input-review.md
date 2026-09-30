@@ -1,16 +1,16 @@
 # Project Input Review
-## Phase 0A — AuraOne Cloud Audit
+## Phase 0A — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Lead Senior DevOps / Architect / Security / Frontend)  
-**Source:** `docs/project/01_AURAONE_PROJECT_INPUT.md` vs actual repository state  
+**Source:** `docs/project/01_TANAIR_PROJECT_INPUT.md` vs actual repository state  
 **Status:** READ-ONLY — no source files modified
 
 ---
 
 ## 1. What This Document Does
 
-This document compares the founder-facing project input template (`01_AURAONE_PROJECT_INPUT.md`) against the actual observable state of the codebase and existing delivery notes. It identifies:
+This document compares the founder-facing project input template (`01_TANAIR_PROJECT_INPUT.md`) against the actual observable state of the codebase and existing delivery notes. It identifies:
 - Fields that are already confirmed by code or delivery notes
 - Fields that remain `[ISI]` (unfilled)
 - Discrepancies between stated intent and current implementation
@@ -52,7 +52,7 @@ This document compares the founder-facing project input template (`01_AURAONE_PR
 
 ## 3. Fields Remaining Unfilled in Project Input (`[ISI]`)
 
-The following critical sections are still `[ISI]` in `01_AURAONE_PROJECT_INPUT.md`. These are **blockers** for Phase 0C (Architecture Baseline) and Phase 1 (Engineering Foundation).
+The following critical sections are still `[ISI]` in `01_TANAIR_PROJECT_INPUT.md`. These are **blockers** for Phase 0C (Architecture Baseline) and Phase 1 (Engineering Foundation).
 
 ### HIGH PRIORITY — Required Before Architecture Baseline
 

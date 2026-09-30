@@ -1,4 +1,4 @@
-# AuraOne Cloud — Target Folder Structure
+# TanAir Cloud — Target Folder Structure
 ## Architecture Documentation
 
 **Version:** 0C  
@@ -23,7 +23,7 @@ This maps exactly to **DEC-010**: `UI → Application Service → Domain → Rep
 ## 2. Full Target Structure
 
 ```
-auraone-cloud/
+tanair-cloud/
 │
 ├── app/                          ← Next.js App Router root
 │   ├── (public)/                 ← Unauthenticated route group

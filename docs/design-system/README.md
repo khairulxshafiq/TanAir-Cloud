@@ -1,7 +1,7 @@
-# AuraOne Design System
+# TanAir Design System
 
 ## Overview
-The AuraOne Design System is an accessible, token-driven, BM-first design system tailored for solopreneurs in Malaysia and Southeast Asia. It blends modern enterprise minimalism with subtle Malaysian heritage cues—specifically Royal Malay Purple and Songket Gold accents.
+The TanAir Design System is an accessible, token-driven, BM-first design system tailored for solopreneurs in Malaysia and Southeast Asia. It blends modern enterprise minimalism with subtle Malaysian heritage cues—specifically Royal Malay Purple and Songket Gold accents.
 
 ## Core Pillars
 1. **Semantic Token Hierarchy**: Complete decoupling of design decisions from CSS markup using `--color-*`, `--spacing-*`, `--radius-*`, `--font-*`, and `--motion-*` tokens.

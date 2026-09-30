@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-Currently, error handling across AuraOne Cloud relies on silent `catch` blocks or raw `console.error` logs in serverless execution logs (Finding: `scalability-findings.md §4`, `security-findings.md §2`). If a chat stream stalls or a user experiences a deduction error, there is zero distributed tracing linking the user's browser request, the Next.js API route, and the backend Hermes VPS gateway. Moreover, there is no immutable audit log tracking security-critical events (logins, password changes, tier upgrades, credit top-ups, admin overrides).
+Currently, error handling across TanAir Cloud relies on silent `catch` blocks or raw `console.error` logs in serverless execution logs (Finding: `scalability-findings.md §4`, `security-findings.md §2`). If a chat stream stalls or a user experiences a deduction error, there is zero distributed tracing linking the user's browser request, the Next.js API route, and the backend Hermes VPS gateway. Moreover, there is no immutable audit log tracking security-critical events (logins, password changes, tier upgrades, credit top-ups, admin overrides).
 
 ## Context & Constraints
 - **Privacy & Security Constraints:** Audit logs must **NEVER** store raw user passwords, secret keys, or unredacted chat prompt bodies (preventing data leakage under PDPA regulations).

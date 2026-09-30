@@ -1,5 +1,5 @@
 # Remediation Plan & Action Roadmap
-## Phase 0B — AuraOne Cloud Audit
+## Phase 0B — TanAir Cloud Audit
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Lead Senior DevOps / Architect / Security / Platform Engineer)  
@@ -9,7 +9,7 @@
 
 ## 1. Overview & Strategy
 
-This remediation plan translates findings from all Phase 0A and 0B audits into a sequenced, actionable roadmap. Remediation is strictly aligned with the phased delivery strategy (`05_AURAONE_PHASE_PLAN.md`), ensuring that security holes and developer bottlenecks are addressed before feature elaboration.
+This remediation plan translates findings from all Phase 0A and 0B audits into a sequenced, actionable roadmap. Remediation is strictly aligned with the phased delivery strategy (`05_TANAIR_PHASE_PLAN.md`), ensuring that security holes and developer bottlenecks are addressed before feature elaboration.
 
 ---
 
@@ -37,7 +37,7 @@ This remediation plan translates findings from all Phase 0A and 0B audits into a
 | Area | Current State | Target State | The Gap to Close | Target Phase |
 |---|---|---|---|:---:|
 | **Auth** | Working Google OAuth client-side | SSR cookie auth with middleware session protection | `@supabase/ssr` integration & `middleware.ts` | Phase 1 |
-| **Database** | No AuraOne tables in Postgres | Full relational schema (`profiles`, `sessions`, `messages`, `credit_ledger`, `bots`) | Migration script pipeline & table definition | Phase 10 |
+| **Database** | No TanAir tables in Postgres | Full relational schema (`profiles`, `sessions`, `messages`, `credit_ledger`, `bots`) | Migration script pipeline & table definition | Phase 10 |
 | **Row Level Security (RLS)** | None defined | Strict RLS ensuring `auth.uid() = user_id` for all tenant rows | RLS policy matrix definition & automated testing | Phase 10 |
 | **Storage** | None configured | Secure buckets (`avatars`, `generated_media`) with signed URL access | Bucket definitions & storage access policies | Phase 10 |
 | **Edge Functions** | None | Webhooks for payment gateway (Billplz) and background agent schedules | Deno/TypeScript Edge Functions | Phase 9 / 10 |
@@ -115,7 +115,7 @@ Ranked rigorously by **(1) Risk Reduction, (2) Time To Fix, and (3) Architectura
 
 ### P9: Add Inbound Authentication (Secret Header / Bearer) to Hermes Gateway
 * **Why:** Hermes currently accepts requests from any IP without verifying caller authorization.
-* **Risk if ignored:** Unauthorized direct use of Hermes VPS tools, bypassing AuraOne billing.
+* **Risk if ignored:** Unauthorized direct use of Hermes VPS tools, bypassing TanAir billing.
 * **Recommended Phase:** Phase 1
 
 ### P10: Add ARIA Labels to All Icon-Only Buttons

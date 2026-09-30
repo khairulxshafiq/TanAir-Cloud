@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-AuraOne Cloud lacks operational visibility for the founder and management team (Finding: `existing-feature-matrix.md §10`). There is no interface to view registered users, track conversion rates from Trial Pro to paid plans, audit credit ledger transactions, inspect Hermes health, or manage dispute adjustments. Exposing administrative controls inside the main user application risks privilege escalation or catastrophic token leaks if not strictly isolated.
+TanAir Cloud lacks operational visibility for the founder and management team (Finding: `existing-feature-matrix.md §10`). There is no interface to view registered users, track conversion rates from Trial Pro to paid plans, audit credit ledger transactions, inspect Hermes health, or manage dispute adjustments. Exposing administrative controls inside the main user application risks privilege escalation or catastrophic token leaks if not strictly isolated.
 
 ## Context & Constraints
 - **Security Rule:** The Supabase `service_role` key must **NEVER** reach the client browser bundle. It must remain strictly encapsulated within server-side environments.
@@ -26,7 +26,7 @@ Connect Supabase directly to Retool or Forest Admin.
 Build a native Next.js App Router sub-tree under `app/(admin)/admin/` with an isolated `AdminLayout`. Guard all paths using edge middleware and execute privileged queries exclusively via Server Components using the `service_role` key.
 - **Pros:**
   - Zero external SaaS costs.
-  - Native BM-first design consistent with AuraOne’s purple-gold Bento design language.
+  - Native BM-first design consistent with TanAir’s purple-gold Bento design language.
   - Hard security isolation: `service_role` is only invoked inside Next.js Server Components, never exported to client JavaScript.
   - Full audit logging: every administrative override writes an immutable entry to `audit_log`.
 - **Cons:** Requires building customized data tables and charts in Phase 8.

@@ -1,5 +1,5 @@
 # Phase 2 Implementation Plan
-## Design System and Application Shell — AuraOne Cloud
+## Design System and Application Shell — TanAir Cloud
 
 **Dokumen:** `docs/implementation/phase-2-plan.md`  
 **Fasa:** Phase 2 (Design System and Application Shell)  
@@ -12,7 +12,7 @@
 
 ## 1. Ringkasan & Skop (Scope)
 
-Misi Fasa 2 adalah untuk membina asas visual dan interaksi yang boleh diguna semula (**reusable visual & interaction foundation**) bagi AuraOne Cloud berlandaskan identiti jenama BM-first, kebolehcapaian (accessibility WCAG 2.1 AA), dan reka bentuk responsif (mobile-first 320px - 1440px).
+Misi Fasa 2 adalah untuk membina asas visual dan interaksi yang boleh diguna semula (**reusable visual & interaction foundation**) bagi TanAir Cloud berlandaskan identiti jenama BM-first, kebolehcapaian (accessibility WCAG 2.1 AA), dan reka bentuk responsif (mobile-first 320px - 1440px).
 
 ### A. Skop Dilaksanakan (In-Scope):
 1. **Sistem Token Reka Bentuk Semantik (Semantic Design Tokens):**
@@ -58,7 +58,7 @@ Fasa 2 **TIDAK** melaksanakan:
 ## 3. Rujukan Inventori UI Semasa (`app/page.tsx`)
 
 Berdasarkan audit pre-flight (`docs/implementation/phase-2-preflight.md`), terdapat 21 elemen visual monolitik yang akan dipindahkan kepada komponen modular:
-1. Shell Header & Jenama AuraOne
+1. Shell Header & Jenama TanAir
 2. Butang Log Masuk / Profil Pengguna
 3. Pemilih Ejen AI (6 ejen: Aura, Aura-Trade, Aura-Pen, Aura-Image, Aura-Video, Aura-CFO)
 4. Lencana Status Ejen (Badge)
@@ -73,7 +73,7 @@ Berdasarkan audit pre-flight (`docs/implementation/phase-2-preflight.md`), terda
 ## 4. Arkitektur Sasaran & Struktur Direktori Baharu
 
 ```text
-auraone-cloud/
+tanair-cloud/
 ├── app/
 │   ├── globals.css                ← Import token semantik & gaya asas
 │   └── layout.tsx                 ← Skrip tema inline blocking & pembekal tema

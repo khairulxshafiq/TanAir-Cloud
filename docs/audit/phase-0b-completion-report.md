@@ -1,5 +1,5 @@
 # Phase 0B Completion Report
-## AuraOne Cloud — Audit & Risk Register
+## TanAir Cloud — Audit & Risk Register
 
 **Generated:** 2026-09-20  
 **Auditor:** Antigravity (Lead Senior DevOps, Software Architect, Security Engineer, Platform Engineer, Senior Frontend Engineer)  
@@ -43,11 +43,11 @@ Evaluated strictly against production SaaS standards:
 
 # 3. Founder Summary
 
-### A. Current AuraOne Maturity
-AuraOne Cloud is currently an **inspiring, functional proof-of-concept (POC)**. The aesthetic presentation, conversational voice, and initial persona alignment are compelling and demonstrate strong market fit for Malaysia. However, behind the user interface, the technical plumbing is currently in an unhardened "prototype" state that cannot safely support paying customers without immediate remediation.
+### A. Current TanAir Maturity
+TanAir Cloud is currently an **inspiring, functional proof-of-concept (POC)**. The aesthetic presentation, conversational voice, and initial persona alignment are compelling and demonstrate strong market fit for Malaysia. However, behind the user interface, the technical plumbing is currently in an unhardened "prototype" state that cannot safely support paying customers without immediate remediation.
 
 ### B. Biggest Strengths
-1. **Compelling Product Identity:** AuraOne’s Bahasa Melayu-first conversational fluency and specialized agent fleet (Aura, Aura-Trade, Aura-Pen, Aura-Art, Aura-Scout, Aura-Vision) resonate immediately.
+1. **Compelling Product Identity:** TanAir’s Bahasa Melayu-first conversational fluency and specialized agent fleet (Aura, Aura-Trade, Aura-Pen, Aura-Art, Aura-Scout, Aura-Vision) resonate immediately.
 2. **Modern Frontend Foundation:** Built on Next.js 16 (App Router), React 19, and Tailwind CSS v4 with clean typography and fast bundle sizes.
 3. **Resilient Streaming Fallback:** The streaming chat gracefully falls back to local simulated BM responses whenever the remote VPS is offline or slow, preventing hard user-facing crashes.
 
@@ -97,5 +97,5 @@ AuraOne Cloud is currently an **inspiring, functional proof-of-concept (POC)**. 
 
 > [!IMPORTANT]
 > **STOP — Phase 0B is complete.**  
-> In accordance with project governance (`00_READ_ME_FIRST.md` & `06_AURAONE_DECISIONS_LOG.md: DEC-012`), execution has halted. Phase 0C (Architecture Baseline) and Phase 1 (Engineering Foundation) will not begin until explicit founder approval is granted.
+> In accordance with project governance (`00_READ_ME_FIRST.md` & `06_TANAIR_DECISIONS_LOG.md: DEC-012`), execution has halted. Phase 0C (Architecture Baseline) and Phase 1 (Engineering Foundation) will not begin until explicit founder approval is granted.
 

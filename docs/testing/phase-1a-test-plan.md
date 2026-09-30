@@ -1,5 +1,5 @@
 # Phase 1A Test Plan & Verification Report
-## Security Containment — AuraOne Cloud
+## Security Containment — TanAir Cloud
 
 **Generated:** 2026-09-20  
 **Author:** Lead Senior QA & Platform Engineer  
@@ -10,7 +10,7 @@
 
 ## 1. Overview & Objectives
 
-Phase 1A establishes the **first automated testing foundation** in the AuraOne Cloud repository. Previously, test coverage was 0% with no test runner installed (Finding: `RR-TST-001`).
+Phase 1A establishes the **first automated testing foundation** in the TanAir Cloud repository. Previously, test coverage was 0% with no test runner installed (Finding: `RR-TST-001`).
 
 The Phase 1A test suite strictly verifies all security controls implemented in `/api/chat`, the request validation pipeline, the rate limiter, and the Hermes adapter boundary without invoking live production VPS endpoints.
 

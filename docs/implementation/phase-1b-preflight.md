@@ -1,5 +1,5 @@
 # Phase 1B Pre-flight Inspection Report
-## DevOps and Quality Foundation — AuraOne Cloud
+## DevOps and Quality Foundation — TanAir Cloud
 
 **Generated:** 2026-09-20  
 **Lead Auditor / Architect:** Antigravity (Lead Senior DevOps, Software Architect, Security Engineer, Platform Engineer)  
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | 1 | **Current Git Branch** | `phase/1a-security-containment` | Still on Phase 1A dedicated branch |
 | 2 | **Working-Tree Status** | Clean (`nothing to commit, working tree clean`) | Zero unstaged or untracked changes |
-| 3 | **PR #1 Status** | **OPEN** (`https://github.com/khairulxshafiq/AuraOne-Cloud/pull/1`) | Created, awaiting founder review |
+| 3 | **PR #1 Status** | **OPEN** (`https://github.com/khairulxshafiq/TanAir-Cloud/pull/1`) | Created, awaiting founder review |
 | 4 | **PR #1 Status Checks** | Empty (`statusCheckRollup: []`) | No GitHub Actions workflow exists yet |
 | 5 | **PR #1 Review Status** | Unreviewed (`reviews: []`) | Founder review pending |
 | 6 | **PR #1 Merged into main?** | **NO** (`mergedAt: null`) | PR is open, not merged |
@@ -67,7 +67,7 @@ According to the Phase 1B Governance Precondition:
 The recommended paths forward are:
 
 ### Option 1 (Recommended — Standard Clean Trunk):
-1. Founder reviews and merges **PR #1** (`https://github.com/khairulxshafiq/AuraOne-Cloud/pull/1`) into `main`.
+1. Founder reviews and merges **PR #1** (`https://github.com/khairulxshafiq/TanAir-Cloud/pull/1`) into `main`.
 2. Locally switch to `main` and pull latest:
    ```bash
    git checkout main && git pull origin main

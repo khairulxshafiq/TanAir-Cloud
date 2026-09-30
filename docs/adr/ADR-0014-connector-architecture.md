@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-AuraOne Cloud envisions connecting AI agents to external commercial channels: Telegram, WhatsApp, Email, Airtable, Google Sheets, and Facebook Pages (Finding: `existing-feature-matrix.md §9`, `project-input-review.md §14`). Directly handling asynchronous webhooks and storing third-party API keys within the core Next.js web application creates two major hazards: (1) third-party webhook floods could degrade web chat responsiveness, and (2) storing external API tokens in plaintext creates severe security exposure.
+TanAir Cloud envisions connecting AI agents to external commercial channels: Telegram, WhatsApp, Email, Airtable, Google Sheets, and Facebook Pages (Finding: `existing-feature-matrix.md §9`, `project-input-review.md §14`). Directly handling asynchronous webhooks and storing third-party API keys within the core Next.js web application creates two major hazards: (1) third-party webhook floods could degrade web chat responsiveness, and (2) storing external API tokens in plaintext creates severe security exposure.
 
 ## Context & Constraints
 - **Tier Entitlements:**
@@ -16,7 +16,7 @@ AuraOne Cloud envisions connecting AI agents to external commercial channels: Te
   - Pro: Telegram Bot connector.
   - Empire: All connectors (Telegram, Email, Sheets, Airtable, Facebook).
 - **Security:** Connector secrets (Telegram Bot Tokens, Google OAuth refresh tokens) must be encrypted at rest.
-- **Resilience:** If Telegram API is down, core AuraOne web chat must remain 100% operational.
+- **Resilience:** If Telegram API is down, core TanAir web chat must remain 100% operational.
 
 ## Options Considered
 

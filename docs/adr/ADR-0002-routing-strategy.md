@@ -8,7 +8,7 @@
 ---
 
 ## Problem Statement
-Currently, the entire AuraOne Cloud user interface is rendered on the root path `/` inside `app/page.tsx` (Finding: `route-inventory.md`). Authentication is evaluated entirely in browser state, with no Next.js `middleware.ts` to guard routes or serverless endpoints (Finding: `ARC-003`, `SEC-001`). There is no segmentation between marketing visitors, authenticated SaaS users, and administrative personnel.
+Currently, the entire TanAir Cloud user interface is rendered on the root path `/` inside `app/page.tsx` (Finding: `route-inventory.md`). Authentication is evaluated entirely in browser state, with no Next.js `middleware.ts` to guard routes or serverless endpoints (Finding: `ARC-003`, `SEC-001`). There is no segmentation between marketing visitors, authenticated SaaS users, and administrative personnel.
 
 ## Context & Constraints
 - **Audit Findings:** `ARC-003` (No middleware), `SEC-001` (Unauthenticated API routes).
@@ -25,7 +25,7 @@ Render everything conditionally on `/` based on state variables (`isLanding`, `i
 - **Pros:** Minimal routing changes from current state.
 - **Cons:** Destroys browser history and deep-linking; prevents SEO on landing pages; insecure client-side protection.
 
-### Option B: Separate Subdomains (`app.auraone.my`, `admin.auraone.my`)
+### Option B: Separate Subdomains (`app.tanair.my`, `admin.tanair.my`)
 Deploy distinct domains for marketing, app, and admin.
 - **Pros:** Complete isolation of cookies and deployment lifecycles.
 - **Cons:** High DNS/SSL management overhead; CORS complexities; excessive cost and maintenance for early SaaS stage.
